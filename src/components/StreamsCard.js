@@ -6,13 +6,14 @@ const StreamsCard = () => {
 
   const fetchParties = (url) => {
     const headers = {
-      Authorization: "Bearer j66dvirbretd668on4gxvr643jnqpa",
+      "Authorization": "Bearer j66dvirbretd668on4gxvr643jnqpa",
       "Client-Id": "lb8o6spujvoj8d88sbcidt49yjp5gj",
     };
     fetch(url, { headers })
       .then((response) => response.json())
       .then((data) => {
         setResponse(data.data);
+        console.log(data.data);
       })
       .catch((err) => console.log(err));
   };
@@ -29,10 +30,7 @@ const StreamsCard = () => {
         <li>{rep.name}</li>
       ))}
       {respons.map((rep) => (
-        <img
-          src={rep.box_art_url
-            .replace("{width}", 300)
-            .replace("{height}", "300")}
+        <img src={rep.box_art_url.replace("{width}", "300").replace("{height}", "300")}
         />
       ))}
     </div>
