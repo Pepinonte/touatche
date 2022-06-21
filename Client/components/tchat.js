@@ -1,9 +1,18 @@
 import React, { useState } from "react";
 import io from "socket.io-client";
+import SpeechRecognition, {
+  useSpeechRecognition,
+} from "react-speech-recognition";
 
 function Tchat() {
   const [messages, setMessages] = useState([]);
   const socket = io("localhost:3001");
+  const [value, setValue] = useState("ddqdqz");
+  function handleChange(e) {
+    this.setState({ value: e.target.value });
+  }
+
+  const { transcript, listening, resetTranscript } = useSpeechRecognition();
 
   socket.on("SERVER_MSG", (msg) => {
     setNewMessage(msg);
@@ -15,13 +24,22 @@ function Tchat() {
 
   function sendMessage(e) {
     e.preventDefault();
+    console.log("test" + { transcript });
     const msg = {
       username: e.target.username.value,
       text: e.target.text.value,
     };
     socket.emit("CLIENT_MSG", msg);
     setNewMessage(msg);
+    // e.target.user.value = { transcript };
+    setMessage({ transcript });
   }
+
+  // function sendAll(e){
+  //   sendMessage(e);
+  //   console.log();
+  //   setNewMessage(transcript);
+  // }
 
   return (
     <div>
@@ -42,21 +60,25 @@ function Tchat() {
                 <input
                   id="username"
                   type="text"
-                  placeholder="Username"
+                  placeholder="Votre pseudonyme"
                   className="form-control"
+                  required
                 />
                 <br />
                 <input
+                  onChange={this.handleChange}
+                  contentEditable="true"
                   id="text"
                   type="text"
-                  placeholder="Your message"
+                  placeholder="Entrez votre message"
                   className="form-control"
-                />
+                  required
+                ></input>
                 <button type="submit">envoyer</button>
-                {/* zfzfez */}
               </div>
-              
             </form>
+            <button onClick={SpeechRecognition.startListening}>Start</button>
+            <button onClick={resetTranscript}>Reset</button>
           </div>
         </div>
       </div>
