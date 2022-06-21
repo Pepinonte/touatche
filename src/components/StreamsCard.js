@@ -47,19 +47,15 @@ const StreamsCard = () => {
         <img src={rep} />
       ))}
       <div>
-        <TwitchEmbed
+        {/* <TwitchEmbed
           channel="smoke"
           id="Smoke"
           theme="dark"
           muted
           onVideoPause={() => console.log(":(")}
-        />
-        <TwitchChat channel="moonstar_x" theme="dark" />
-        <TwitchClip
-          clip="WealthyBumblingKimchiItsBoshyTime"
-          parent={["mycoolsite.com, anotherawesomesite.net"]}
-        />
-        <TwitchPlayer video="333014765" />
+        /> */}
+        {/* <TwitchChat channel="smoke" theme="dark" /> */}
+        <TwitchPlayer channel="smoke" height="300" width="300" />
       </div>
     </div>
   );
