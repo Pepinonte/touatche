@@ -12,6 +12,7 @@ function App() {
           <div className="container-center-horizontal">
             <div className="computeur screen">
               <div className="app_navbar-container">
+                //ui
                 <AppNavbar />
                 <AppNavbar />
               </div>
