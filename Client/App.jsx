@@ -41,7 +41,8 @@ function App() {
                     <img className="icon-camera-1" src="/img/image-2-1@2x.png" />
                   </div>
                 </div>
-              </div>
+              </div> 
+              {/* testPush */}
               <div className="app_-container">
                 <div className="app_soudage">
                   <div className="sondage-1 inter-normal-black-32px">Sondage :</div>
