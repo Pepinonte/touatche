@@ -1,0 +1,28 @@
+.app__mobile-connexion {
+  align-items: flex-start;
+  display: flex;
+  height: 17px;
+  margin-left: 27px;
+  padding: 1px 0;
+  width: 51px;
+}
+
+.connexion-1 {
+  cursor: pointer;
+  letter-spacing: 0;
+  min-height: 12px;
+  transition: all 0.2s ease;
+}
+
+.connexion-1:hover {
+  color: #FB6222
+}
+
+.app__mobile-connexion.app__mobile-inscription {
+  margin-left: 32px;
+}
+
+.app__mobile-connexion.app__mobile-inscription .connexion-1 {
+  margin-left: 1px;
+}
+

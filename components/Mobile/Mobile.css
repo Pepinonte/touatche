@@ -1,0 +1,389 @@
+.mobile {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 574px;
+  width: 360px;
+}
+
+.overlap-group3 {
+  height: 51px;
+  position: relative;
+  width: 360px;
+}
+
+.app__mobile-navbar {
+  align-items: flex-start;
+  display: flex;
+  height: 51px;
+  left: 0;
+  padding: 4px 6px;
+  position: absolute;
+  top: 0;
+  width: 360px;
+}
+
+.overlap-group1 {
+  height: 39px;
+  margin-left: 53px;
+  position: relative;
+  width: 295px;
+}
+
+.overlap-group-1 {
+  height: 39px;
+  left: 2px;
+  position: absolute;
+  top: 0;
+  width: 293px;
+}
+
+.app__mobile-navbar-login {
+  align-items: flex-start;
+  display: flex;
+  height: 39px;
+  left: 114px;
+  padding: 5px 9px;
+  position: absolute;
+  top: 0;
+  width: 179px;
+}
+
+.image-4 {
+  height: 7px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 23px;
+  width: 125px;
+}
+
+.titre-site-1 {
+  height: 14px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 4px;
+  width: 83px;
+}
+
+.icon-paper_plane {
+  height: 51px;
+  left: 14px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 46px;
+}
+
+.app__mobile-categ {
+  align-items: flex-start;
+  display: flex;
+  padding: 0 11px;
+  width: 360px;
+}
+
+.app__mobile-categ-1 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 57px;
+  margin-left: 17px;
+  padding: 2px 13px;
+  transition: all 0.2s ease;
+  width: 60px;
+}
+
+.app__mobile-categ-1:hover,
+.app__mobile-categ-1-1:hover,
+.app__mobile-categ-1-2:hover,
+.app__mobile-categ-1-3:hover,
+.app__mobile-categ-1-4:hover {
+  transform: scale(1.1);
+}
+
+.sport-container {
+  height: 46px;
+  position: relative;
+  width: 34px;
+}
+
+.sport {
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  top: 30px;
+}
+
+.sport_ballon {
+  height: 31px;
+  left: 4px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 30px;
+}
+
+.app__mobile-categ-1-1 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 57px;
+  margin-left: 4px;
+  padding: 5px 7px;
+  transition: all 0.2s ease;
+  width: 68px;
+}
+
+.overlap-group-2 {
+  height: 43px;
+  position: relative;
+  width: 53px;
+}
+
+.musique,
+.thatre {
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  top: 27px;
+}
+
+.microphone_png7930-2 {
+  height: 28px;
+  left: 14px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 26px;
+}
+
+.app__mobile-categ-1-2 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 57px;
+  margin-left: 4px;
+  padding: 5px 4px;
+  transition: all 0.2s ease;
+  width: 60px;
+}
+
+.thatre-container {
+  height: 43px;
+  margin-left: 4px;
+  position: relative;
+  width: 48px;
+}
+
+.thatre_masque {
+  height: 28px;
+  left: 7px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 33px;
+}
+
+.app__mobile-categ-1-3 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 57px;
+  margin-left: 5px;
+  padding: 6px 8px;
+  transition: all 0.2s ease;
+  width: 60px;
+}
+
+.danse-container {
+  height: 42px;
+  margin-left: 5px;
+  position: relative;
+  width: 39px;
+}
+
+.danse {
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  top: 26px;
+}
+
+.danse_danseuse {
+  height: 27px;
+  left: 4px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 26px;
+}
+
+.app__mobile-categ-1-4 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 57px;
+  padding: 1px 9px;
+  transition: all 0.2s ease;
+  width: 60px;
+}
+
+.overlap-group-3 {
+  height: 47px;
+  margin-left: 3px;
+  position: relative;
+  width: 39px;
+}
+
+.irl {
+  left: 10px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 31px;
+}
+
+.icon-camera {
+  height: 32px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 39px;
+}
+
+.app__mobile-tchat {
+  align-items: flex-end;
+  display: flex;
+  height: 204px;
+  margin-top: 262px;
+  overflow: hidden;
+  width: 360px;
+}
+
+.app__mobile-container {
+  height: 328px;
+  margin-bottom: -124px;
+  position: relative;
+  width: 360px;
+}
+
+.app__mobile-tchat-tchatbar {
+  align-items: flex-end;
+  display: flex;
+  height: 34px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 169px;
+  width: 360px;
+}
+
+.frame-1 {
+  background-color: var(--orange);
+  height: 35px;
+  margin-bottom: -1px;
+  width: 294px;
+}
+
+.envoyer {
+  align-items: flex-start;
+  display: flex;
+  overflow: hidden;
+  width: 65px;
+}
+
+.overlap-group-4 {
+  align-items: flex-start;
+  background-color: var(--sundown);
+  display: flex;
+  height: 34px;
+  justify-content: flex-end;
+  margin-left: -1px;
+  min-width: 66px;
+  padding: 8px;
+}
+
+.envoyer-1 {
+  letter-spacing: 0;
+  min-height: 16px;
+}
+
+.app__mobile-tchat-divtchat {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: 328px;
+  left: 0;
+  padding: 35px 0;
+  position: absolute;
+  top: 0;
+  width: 295px;
+}
+
+.carlus-lul {
+  letter-spacing: 0;
+  margin-left: 39px;
+  min-height: 12px;
+}
+
+.carlus-lul-lul-lul-lul {
+  letter-spacing: 0;
+  margin-left: 39px;
+  margin-top: 8px;
+  min-height: 12px;
+}
+
+.carlus-lul-lul-lul {
+  letter-spacing: 0;
+  margin-left: 39px;
+  margin-top: 5px;
+  min-height: 12px;
+}
+
+.carlus-zzzzzzzzzzzzzzzzzzzzzzzzzz {
+  align-self: center;
+  letter-spacing: 0;
+  margin-right: 40.0px;
+  margin-top: 5px;
+  min-height: 12px;
+  min-width: 177px;
+}
+
+.envoyer-un-message {
+  align-self: flex-end;
+  background-color: transparent;
+  border: 0;
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xs);
+  font-weight: 400;
+  height: 15px;
+  letter-spacing: 0;
+  margin-top: 42px;
+  padding: 0;
+  width: 280px;
+}
+
+.envoyer-un-message::placeholder {
+  color: #ffffff99;
+}
+
+.app__mobile-sondage {
+  align-items: flex-start;
+  display: flex;
+  height: 169px;
+  left: 294px;
+  position: absolute;
+  top: 0;
+  width: 66px;
+}
+
+.sondage {
+  background-color: var(--orange);
+  height: 169px;
+  margin-left: 1px;
+  width: 65px;
+}
+
