@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 
 const StreamsCard = () => {
   const [respons, setResponse] = useState([{}]);
+  const [img, setImg] = useState([{}]);
   const url = "https://api.twitch.tv/helix/games/top";
 
   const fetchParties = (url) => {
@@ -12,8 +13,11 @@ const StreamsCard = () => {
     fetch(url, { headers })
       .then((response) => response.json())
       .then((data) => {
+        let tempList = data.data;
         setResponse(data.data);
-        console.log(data.data);
+        console.log(tempList);
+        setImg(tempList.map((rep) => (rep.box_art_url.replace("{width}", "300").replace("{height}", "300"))))
+        // console.log(data.data)
       })
       .catch((err) => console.log(err));
   };
@@ -29,8 +33,8 @@ const StreamsCard = () => {
       {respons.map((rep) => (
         <li>{rep.name}</li>
       ))}
-      {respons.map((rep) => (
-        <img src={rep.box_art_url.replace("{width}", "300").replace("{height}", "300")}
+      {img.map((rep) => (
+        <img src={rep}
         />
       ))}
     </div>
