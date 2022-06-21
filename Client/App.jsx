@@ -3,6 +3,7 @@ import React from "react";
 import { Switch, BrowserRouter as Router, Route } from "react-router-dom";
 import AppNavbar from "./components/AppNavbar";
 import Mobile from "./components/Mobile";
+import Tchat from "./components/tchat"
 
 function App() {
   return (
@@ -41,8 +42,7 @@ function App() {
                     <img className="icon-camera-1" src="/img/image-2-1@2x.png" />
                   </div>
                 </div>
-              </div> 
-              {/* testPush */}
+              </div>
               <div className="app_-container">
                 <div className="app_soudage">
                   <div className="sondage-1 inter-normal-black-32px">Sondage :</div>
@@ -50,45 +50,7 @@ function App() {
                     <div className="envoyer-2">Envoyer</div>
                   </div>
                 </div>
-                <div className="app_tchat border-1px-black">
-                  <div className="app_tchat-container">
-                    <div className="app_tchat-historique inter-normal-black-20px">
-                      <div className="name-1">Dylan :&nbsp;&nbsp; ...</div>
-                      <div className="name-2">Nicolas B :&nbsp;&nbsp;Mais c’est vrai</div>
-                      <div className="name">Nicolas B :&nbsp;&nbsp;Déso BG</div>
-                      <div className="name">Dylan :&nbsp;&nbsp; Ca c’est vraiment pas gentil !!</div>
-                      <div className="name-3">Nicolas B :&nbsp;&nbsp; T’as pas souvent dut l’entendre alors ...</div>
-                      <div className="name-4">Dylan :&nbsp;&nbsp;Je sais, je sais, on me le dit souvent</div>
-                      <div className="name">Nicolas B :&nbsp;&nbsp;En effet, tu es vraiment pas bête mec</div>
-                      <div className="name-5">Dylan :&nbsp;&nbsp;Il ne faut pas juger un livre à sa couverture</div>
-                      <div className="name-6">
-                        Nicolas B :&nbsp;&nbsp;Bon ça va, je savais pas à quel point c’était bien avant de vraiment
-                        tester :/
-                      </div>
-                      <div className="name-7">Christian :&nbsp;&nbsp;Faut savoir ...</div>
-                      <div className="name-8">
-                        Nicolas B :&nbsp;&nbsp;Ah non, autant pour moi c’est vraiment bien enfait
-                      </div>
-                      <div className="name-9">Nicolas B :&nbsp;&nbsp;React, c’est nul</div>
-                      <div className="name-10">Christian :&nbsp;&nbsp;L’API marche pas</div>
-                      <div className="name">Dylan : Trop bien ton live</div>
-                      <div className="name-11">Nicolas : Je vais faire le logo</div>
-                    </div>
-                    <div className="app_tchat-edition">
-                      <div className="app_tchatbar">
-                        <input
-                          className="envoyer-un-message-1"
-                          name="envoyerunmessage"
-                          placeholder="Envoyer un message "
-                          type="text"
-                        />
-                      </div>
-                      <div className="app_envoyer">
-                        <div className="envoyer_text inter-normal-black-20px">Envoyer</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              <Tchat/>
               </div>
             </div>
           </div>
@@ -137,4 +99,5 @@ const mobileData = {
     appMobileConnexion1Props: appMobileConnexion1Data,
     appMobileConnexion2Props: appMobileConnexion2Data,
 };
+
 
