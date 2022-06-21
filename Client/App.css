@@ -1,0 +1,386 @@
+.computeur {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  min-height: 1080px;
+  width: 1920px;
+}
+
+.app_navbar-container {
+  height: 83px;
+  margin-top: -1px;
+  position: relative;
+  width: 1902px;
+}
+
+.app_categ {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 24px;
+  width: 1920px;
+}
+
+.app_categ-1 {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  padding: 0 95px;
+  transition: all 0.2s ease;
+  width: 413px;
+}
+
+.app_categ-1:hover,
+.app_categ-2:hover,
+.app_categ-3:hover,
+.onglet-danse:hover,
+.onglet-irl:hover {
+  transform: scale(1.1);
+}
+
+.title {
+  letter-spacing: 0;
+  margin-bottom: 1.0px;
+  margin-left: 32px;
+  min-height: 35px;
+  width: 117px;
+}
+
+.sport_ballon-1 {
+  height: 70px;
+  margin-left: 6px;
+  object-fit: cover;
+  width: 68px;
+}
+
+.app_categ-2 {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  height: 70px;
+  padding: 0 34px;
+  transition: all 0.2s ease;
+  width: 377px;
+}
+
+.musique-1 {
+  letter-spacing: 0;
+  margin-bottom: 1.0px;
+  margin-left: 61px;
+  min-height: 39px;
+  min-width: 129px;
+}
+
+.microphone_png7930-1 {
+  height: 54px;
+  margin-left: 68px;
+  object-fit: cover;
+  width: 51px;
+}
+
+.app_categ-3 {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  height: 70px;
+  padding: 0 22px;
+  transition: all 0.2s ease;
+  width: 377px;
+}
+
+.thatre-1 {
+  letter-spacing: 0;
+  margin-bottom: 1.0px;
+  margin-left: 80px;
+  min-height: 39px;
+  min-width: 118px;
+}
+
+.thatre_masque-1 {
+  height: 54px;
+  margin-left: 63px;
+  object-fit: cover;
+  width: 72px;
+}
+
+.onglet-danse {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  min-width: 377px;
+  transition: all 0.2s ease;
+}
+
+.app_categ-4 {
+  align-items: center;
+  display: flex;
+  height: 70px;
+  padding: 0 42px;
+  width: 377px;
+}
+
+.danse-1 {
+  letter-spacing: 0;
+  margin-bottom: 1.0px;
+  margin-left: 98px;
+  min-height: 39px;
+  min-width: 96px;
+}
+
+.danse_danseuse-1 {
+  align-self: flex-end;
+  height: 64px;
+  margin-left: 37px;
+  object-fit: cover;
+  width: 62px;
+}
+
+.onglet-irl {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  min-width: 376px;
+  transition: all 0.2s ease;
+}
+
+.app_categ-5 {
+  align-items: center;
+  display: flex;
+  height: 70px;
+  padding: 5px 78px;
+  width: 376px;
+}
+
+.irl-1 {
+  letter-spacing: 0;
+  margin-bottom: 1.0px;
+  margin-left: 51px;
+  min-height: 39px;
+  min-width: 47px;
+}
+
+.icon-camera-1 {
+  align-self: flex-end;
+  height: 59px;
+  margin-left: 51px;
+  object-fit: cover;
+  width: 71px;
+}
+
+.app_-container {
+  align-items: flex-end;
+  align-self: flex-end;
+  display: flex;
+  margin-right: 18px;
+  margin-top: 43px;
+  min-width: 1775px;
+}
+
+.app_soudage {
+  align-items: flex-start;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  height: 236px;
+  padding: 35px 49px;
+  width: 964px;
+}
+
+.sondage-1 {
+  letter-spacing: 0;
+  min-height: 39px;
+  min-width: 153px;
+}
+
+.overlap-group-5 {
+  align-items: flex-end;
+  align-self: center;
+  background-color: #d9d9d9;
+  display: flex;
+  height: 67px;
+  justify-content: flex-end;
+  margin-left: 487px;
+  margin-top: 45.0px;
+  min-width: 135px;
+  padding: 11px 6px;
+}
+
+.envoyer-2 {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  letter-spacing: 0;
+  min-height: 38px;
+  width: 108px;
+}
+
+.app_tchat {
+  align-items: flex-end;
+  background-color: var(--white);
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  height: 759px;
+  margin-left: 220px;
+  overflow: hidden;
+  width: 591px;
+}
+
+.app_tchat-container {
+  height: 787px;
+  margin-bottom: -30px;
+  position: relative;
+  width: 593px;
+}
+
+.app_tchat-historique {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: 787px;
+  left: 2px;
+  padding: 0 37px;
+  position: absolute;
+  top: 0;
+  width: 591px;
+}
+
+.name-1 {
+  letter-spacing: 0;
+  margin-top: -1px;
+  min-height: 24px;
+}
+
+.name-2 {
+  letter-spacing: 0;
+  margin-top: 19px;
+  min-height: 24px;
+}
+
+.name {
+  letter-spacing: 0;
+  margin-left: 2px;
+  margin-top: 19px;
+  min-height: 24px;
+}
+
+.name-3 {
+  letter-spacing: 0;
+  margin-left: 3px;
+  margin-top: 19px;
+  min-height: 24px;
+}
+
+.name-4 {
+  letter-spacing: 0;
+  margin-left: 3px;
+  margin-top: 18px;
+  min-height: 24px;
+}
+
+.name-5 {
+  letter-spacing: 0;
+  margin-left: 2px;
+  margin-top: 21px;
+  min-height: 24px;
+}
+
+.name-6 {
+  letter-spacing: 0;
+  margin-left: 2px;
+  margin-top: 19px;
+  min-height: 22px;
+  width: 470px;
+}
+
+.name-7 {
+  letter-spacing: 0;
+  margin-left: 3px;
+  margin-top: 44px;
+  min-height: 22px;
+  width: 470px;
+}
+
+.name-8 {
+  letter-spacing: 0;
+  margin-left: 3px;
+  margin-top: 21px;
+  min-height: 22px;
+  width: 470px;
+}
+
+.name-9 {
+  letter-spacing: 0;
+  margin-left: 3px;
+  margin-top: 38px;
+  min-height: 22px;
+  width: 470px;
+}
+
+.name-10 {
+  letter-spacing: 0;
+  margin-top: 18px;
+  min-height: 22px;
+  width: 470px;
+}
+
+.name-11 {
+  letter-spacing: 0;
+  margin-left: 3px;
+  margin-top: 21px;
+  min-height: 24px;
+}
+
+.app_tchat-edition {
+  align-items: flex-start;
+  background-color: var(--orange);
+  display: flex;
+  height: 54px;
+  left: 0;
+  padding: 0 1px;
+  position: absolute;
+  top: 703px;
+  width: 591px;
+}
+
+.app_tchatbar {
+  align-items: flex-start;
+  display: flex;
+  height: 54px;
+  padding: 14px 0;
+  width: 471px;
+}
+
+.envoyer-un-message-1 {
+  background-color: transparent;
+  border: 0;
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  height: 24px;
+  letter-spacing: 0;
+  margin-left: 34px;
+  padding: 0;
+  width: 437px;
+}
+
+.envoyer-un-message-1::placeholder {
+  color: #ffffff99;
+}
+
+.app_envoyer {
+  align-items: flex-end;
+  background-color: var(--sundown);
+  display: flex;
+  height: 54px;
+  padding: 15px 19px;
+  width: 118px;
+}
+
+.envoyer_text {
+  letter-spacing: 0;
+  margin-left: 4px;
+  min-height: 23px;
+  width: 76px;
+}
+
