@@ -6,12 +6,13 @@ import Mobile from "./components/Mobile";
 import Tchat from "./components/tchat";
 import StreamsCard from "./components/StreamsCard";
 import Sondage from "./components/testNico";
-import Danse from "./pages/Dance";
+import Danse from "./pages/Danse";
 import Irl from "./pages/Irl";
 import Musique from "./pages/Musique";
 import Sport from "./pages/Sport";
 import Theatre from "./pages/Theatre";
 import Connexion from "./components/Connexion";
+import Onglets from "./components/onglet";
 import Inscription from "./components/Inscription";
 import {
   TwitchEmbed,
@@ -34,56 +35,7 @@ function App() {
                 <AppNavbar />
                 <AppNavbar />
               </div>
-              <div className="app_categ inter-normal-black-32px">
-                <div className="app_categ-1">
-                  <a href="http://localhost:1234/Sport">Sport</a>
-                  <img
-                    className="sport_ballon-1"
-                    src="/img/sport-ballon@2x.png"
-                  />
-                </div>
-                <div className="app_categ-2">
-                  <div className="musique-1">
-                    <a href="http://localhost:1234/Musique">Musique</a>
-                  </div>
-                  <img
-                    className="microphone_png7930-1"
-                    src="/img/microphone-png7930-1-1@2x.png"
-                  />
-                </div>
-                <div className="app_categ-3">
-                  <div className="thatre-1">
-                    <a href="http://localhost:1234/Theatre">Théatre</a>
-                  </div>
-                  <img
-                    className="thatre_masque-1"
-                    src="/img/th-atre-masque@2x.png"
-                  />
-                </div>
-                <div className="onglet-danse">
-                  <div className="app_categ-4">
-                    <div className="danse-1 inter-normal-black-32px">
-                      <a href="http://localhost:1234/Dance">Dance</a>
-                    </div>
-                    <img
-                      className="danse_danseuse-1"
-                      src="/img/danse-danseuse@2x.png"
-                      // test
-                    />
-                  </div>
-                </div>
-                <div className="onglet-irl">
-                  <div className="app_categ-5">
-                    <div className="irl-1 inter-normal-black-32px">
-                      <a href="http://localhost:1234/Irl">IRL</a>
-                    </div>
-                    <img
-                      className="icon-camera-1"
-                      src="/img/image-2-1@2x.png"
-                    />
-                  </div>
-                </div>
-              </div>
+              <Onglets />
               <div className="app_-container">
                 <div className="app_player">
                   <TwitchPlayer className="vidéoBase" channel="gonni" />
