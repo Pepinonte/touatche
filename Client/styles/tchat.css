@@ -1,21 +1,124 @@
-.Tchat{
-    display: block;
+.Tchat {
+  display: block;
+  position: absolute;
+  top: -50px;
+  right: -80px;
+
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 1em;
+  text-decoration: none;
+  cursor: pointer;
 }
 
-.activeTchat{
-    display: none;
+.activeTchat {
+  display: none;
 }
 
-.TchatContent{
-    display: none;
+.TchatContent {
+  display: none;
+
+  background-color: transparent;
+  cursor: pointer;
 }
 
-.activeTchatContent{
-    display: block;
+button.TchatContent {
+  font-size: 35px;
+  position: absolute;
+  top: 0px;
+  right: -90px;
 }
 
-.formTchat{
-    padding:0;
+.activeTchatContent {
+  display: block;
 }
 
+.formLeTchat {
+  padding: 0;
+  width: 51.3vh;
+  border: none;
+}
 
+.containerTchat {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 500px;
+  height: 700px;
+  background: #f1f1f1;
+  margin: 100px auto 0;
+  word-break: break-all;
+  border: 1px solid rgba(0, 0, 0, 0.274);
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+
+.bloc-tabsTchat {
+  display: flex;
+}
+.tabsTchat {
+  padding: 15px;
+  text-align: center;
+  width: 50%;
+  background: rgba(128, 128, 128, 0.075);
+  cursor: pointer;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+  box-sizing: content-box;
+  position: relative;
+  outline: none;
+}
+.tabsTchat:not(:last-child) {
+  border-right: 1px solid rgba(0, 0, 0, 0.274);
+}
+
+.active-tabsTchat {
+  background: white;
+  border-bottom: 1px solid transparent;
+}
+
+.active-tabsTchat::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% + 2px);
+  height: 5px;
+  background: #fb6222;
+}
+
+button {
+  border: none;
+}
+.content-tabsTchat {
+  flex-grow: 1;
+}
+.contentTchat {
+  background: white;
+
+  padding-top: 20px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.contentTchat h2 {
+  padding: 0px 0 5px 0px;
+}
+.contentTchat hr {
+  width: 100px;
+  height: 2px;
+  background: #222;
+  margin-bottom: 5px;
+}
+.contentTchat p {
+  width: 100%;
+  height: 100%;
+}
+.active-contentTchat {
+  display: block;
+}

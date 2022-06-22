@@ -5,14 +5,14 @@ import AppNavbar from "./components/AppNavbar";
 import Mobile from "./components/Mobile";
 import Tchat from "./components/tchat";
 import StreamsCard from "./components/StreamsCard";
-import Sondage from "./components/testNico"
-import Danse from "./pages/Dance"
-import Irl from "./pages/Irl"
-import Musique from "./pages/Musique"
-import Sport from "./pages/Sport"
-import Theatre from "./pages/Theatre"
-import Connexion from "./components/Connexion"
-import Inscription from "./components/Inscription"
+import Sondage from "./components/testNico";
+import Danse from "./pages/Dance";
+import Irl from "./pages/Irl";
+import Musique from "./pages/Musique";
+import Sport from "./pages/Sport";
+import Theatre from "./pages/Theatre";
+import Connexion from "./components/Connexion";
+import Inscription from "./components/Inscription";
 import {
   TwitchEmbed,
   TwitchChat,
@@ -20,6 +20,7 @@ import {
   TwitchPlayer,
 } from "react-twitch-embed";
 import Tchat from "./components/tchat";
+import OngletTchat from "./components/OngletTchat";
 // import RecordVoice from "./components/voiceRecorder";
 
 function App() {
@@ -88,17 +89,17 @@ function App() {
                   <TwitchPlayer className="vidéoBase" channel="gonni" />
                 </div>
                 <div className="app_soudage">
-                  
                   <div className="sondage-1 inter-normal-black-32px">
-                    Sondage : <Sondage/>
+                    Sondage : <Sondage />
                   </div>
                   <div className="overlap-group-5">
                     <div className="envoyer-2">Envoyer</div>
                   </div>
                 </div>
-                <Tchat />
+                <div className="app-tchat">
+                  <OngletTchat />
+                </div>
               </div>
-              
             </div>
           </div>
         </Route>
@@ -111,29 +112,29 @@ function App() {
         </Route>
 
         <Route path="/Sport">
-          < Sport channelName={"gonni"} width={"800px"} height={"800px"} />
+          <Sport channelName={"gonni"} width={"800px"} height={"800px"} />
         </Route>
 
         <Route path="/Danse">
-          < Danse channelName={"gonni"} width={"800px"} height={"800px"} />
+          <Danse channelName={"gonni"} width={"800px"} height={"800px"} />
         </Route>
 
         <Route path="/Theatre">
-          < Theatre channelName={"gonni"} width={"800px"} height={"800px"} />
+          <Theatre channelName={"gonni"} width={"800px"} height={"800px"} />
         </Route>
         <Route path="/Irl">
-          < Irl channelName={"gonni"} width={"800px"} height={"800px"} />
+          <Irl channelName={"gonni"} width={"800px"} height={"800px"} />
         </Route>
         <Route path="/Musique">
-          < Musique channelName={"gonni"} width={"800px"} height={"800px"} />
+          <Musique channelName={"gonni"} width={"800px"} height={"800px"} />
         </Route>
 
         <Route path="/Connexion">
-          < Connexion/>
+          <Connexion />
         </Route>
 
         <Route path="/Inscription">
-          < Inscription/>
+          <Inscription />
         </Route>
       </Switch>
     </Router>
