@@ -53,7 +53,6 @@ function Tchat() {
 
   return (
     <div>
-      <div className="app_tchat border-1px-black">
         <div className="app_tchat-container">
           <div className="app_tchat-historique inter-normal-black-20px">
             {messages.map((msg) => {
@@ -105,38 +104,87 @@ function Tchat() {
                   }
                 ></input>
                 <button type="submit">envoyer</button>
+      <div className="app_tchat border-1px-black">
               </div>
-            </form>
-            <button
-              className={toggleTchat === 1 ? "Tchat activeTchat" : "Tchat"}
-              onClick={() => {
-                toggleTchatV(1);
-              }}
-              data-anim="1"
-            >
-              Text
-            </button>
+            );
+          })}
+        </div>
+        <div className="app_tchat-edition">
+          <form
+            className="formLeTchat"
+            onSubmit={
+              toggleTchat === 2
+                ? (e) => sendMessageVocal(e)
+                : (e) => sendMessage(e)
+            }
+          >
+            <div className="app_tchatbar">
+              <input
+                id="username"
+                type="text"
+                placeholder="Votre pseudonyme"
+                className="form-control"
+                value={localStorage.getItem("nom")}
+                required
+              />
+              <br />
+              <input
+                id="text"
+                type="text"
+                placeholder="Entrez votre message"
+                className={
+                  toggleTchat === 1
+                    ? "TchatContent activeTchatContent"
+                    : "TchatContent"
+                }
+              ></input>
+              <input
+                id="vocal"
+                type="text"
+                value={transcript}
+                placeholder="Entrez votre message"
+                className={
+                  toggleTchat === 2
+                    ? "TchatContent activeTchatContent"
+                    : "TchatContent"
+                }
+              ></input>
+              <input
+                type="submit"
+                className="envoyerMessage"
+                value="Envoyer"
+              ></input>
+            </div>
+          </form>
+          <button
+            className={toggleTchat === 1 ? "Tchat activeTchat" : "Tchat"}
+            onClick={() => {
+              toggleTchatV(1);
+            }}
+            data-anim="1"
+          >
+            Texte
+          </button>
 
-            <button
-              className={toggleTchat === 2 ? "Tchat activeTchat" : "Tchat"}
-              onClick={() => {
-                toggleTchatV(2);
-              }}
-              data-anim="2"
-            >
-              Vocal
-            </button>
-            <button
-              className={
-                toggleTchat === 2
-                  ? "TchatContent activeTchatContent"
-                  : "TchatContent"
-              }
-              onClick={SpeechRecognition.startListening}
-            >
-              Start
-            </button>
-          </div>
+          <button
+            className={toggleTchat === 2 ? "Tchat activeTchat" : "Tchat"}
+            onClick={() => {
+              toggleTchatV(2);
+            }}
+            data-anim="2"
+          >
+            Vocal
+          </button>
+          <button
+            className={
+              toggleTchat === 2
+                ? "TchatContent activeTchatContent"
+                : "TchatContent"
+            }
+            onClick={SpeechRecognition.startListening}
+          >
+            🎙️​
+          </button>
         </div>
       </div>
     </div>
