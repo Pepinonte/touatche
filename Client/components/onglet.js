@@ -76,7 +76,7 @@ function Tchat() {
         <div className="onglet-danse">
           <div className="app_categ-4">
             <div className="danse-1 inter-normal-black-32px">
-              <a href="http://localhost:1234/Dance">Dance</a>
+              <a href="http://localhost:1234/Danse">Danse</a>
             </div>
             <img
               className="danse_danseuse-1"

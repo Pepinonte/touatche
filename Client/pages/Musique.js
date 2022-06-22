@@ -8,6 +8,12 @@ const Musique = () => {
     <div>
       <div>
         <Onglets />
+        <div className="app_navbar-inscription">
+          <div className="sinscrire inter-normal-black-30px">
+            {" "}
+            <a href="http://localhost:1234">Accueil</a>
+          </div>
+        </div>
       </div>
 
       <div className="m1">

@@ -6,7 +6,7 @@ import Mobile from "./components/Mobile";
 import Tchat from "./components/tchat";
 import StreamsCard from "./components/StreamsCard";
 import Sondage from "./components/testNico";
-import Danse from "./pages/Dance";
+import Danse from "./pages/Danse";
 import Irl from "./pages/Irl";
 import Musique from "./pages/Musique";
 import Sport from "./pages/Sport";

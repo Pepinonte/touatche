@@ -6,6 +6,10 @@ const Dance = () => {
   return (
     <div>
       <Onglets />
+      <div className="sinscrire inter-normal-black-30px">
+        {" "}
+        <a href="http://localhost:1234">Accueil</a>
+      </div>
       <div>
         <StreamsCard
           channelName={"AikaMorii"}
