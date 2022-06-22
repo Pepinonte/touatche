@@ -1,0 +1,15 @@
+.Tchat{
+    display: block;
+}
+
+.activeTchat{
+    display: none;
+}
+
+.TchatContent{
+    display: none;
+}
+
+.activeTchatContent{
+    display: block;
+}

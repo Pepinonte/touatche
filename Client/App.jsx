@@ -11,7 +11,6 @@ import {
   TwitchPlayer,
 } from "react-twitch-embed";
 import Tchat from "./components/tchat";
-import Dictaphone from "./components/lol";
 // import RecordVoice from "./components/voiceRecorder";
 
 function App() {
@@ -78,7 +77,6 @@ function App() {
                 </div>
                 <Tchat />
               </div>
-              <Dictaphone />
             </div>
           </div>
         </Route>
