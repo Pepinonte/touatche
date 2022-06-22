@@ -79,7 +79,7 @@ function Tchat() {
                   type="text"
                   placeholder="Votre pseudonyme"
                   className="form-control"
-                  value={localStorage.getItem("nom")}
+                  // value={localStorage.getItem("nom")}
                   required
                 />
                 <br />
