@@ -67,6 +67,7 @@ function App() {
                     <img
                       className="danse_danseuse-1"
                       src="/img/danse-danseuse@2x.png"
+                      // test
                     />
                   </div>
                 </div>
