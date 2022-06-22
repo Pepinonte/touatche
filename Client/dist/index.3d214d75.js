@@ -27072,7 +27072,10 @@ var _mobile = require("./components/Mobile");
 var _mobileDefault = parcelHelpers.interopDefault(_mobile);
 var _tchat = require("./components/tchat");
 var _tchatDefault = parcelHelpers.interopDefault(_tchat);
+var _streamsCard = require("./components/StreamsCard");
+var _streamsCardDefault = parcelHelpers.interopDefault(_streamsCard);
 var _reactTwitchEmbed = require("react-twitch-embed");
+// import RecordVoice from "./components/voiceRecorder";
 function App() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.BrowserRouter), {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Switch), {
@@ -27089,18 +27092,18 @@ function App() {
                                     children: [
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _appNavbarDefault.default), {}, void 0, false, {
                                             fileName: "App.jsx",
-                                            lineNumber: 22,
+                                            lineNumber: 25,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _appNavbarDefault.default), {}, void 0, false, {
                                             fileName: "App.jsx",
-                                            lineNumber: 23,
+                                            lineNumber: 26,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "App.jsx",
-                                    lineNumber: 21,
+                                    lineNumber: 24,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27109,12 +27112,12 @@ function App() {
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                             className: "app_categ-1",
                                             children: [
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                                                    className: "title",
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                    href: "http://localhost:1234/StreamsCard",
                                                     children: "Sport"
                                                 }, void 0, false, {
                                                     fileName: "App.jsx",
-                                                    lineNumber: 27,
+                                                    lineNumber: 30,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -27122,13 +27125,13 @@ function App() {
                                                     src: "/img/sport-ballon@2x.png"
                                                 }, void 0, false, {
                                                     fileName: "App.jsx",
-                                                    lineNumber: 28,
+                                                    lineNumber: 31,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "App.jsx",
-                                            lineNumber: 26,
+                                            lineNumber: 29,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27136,10 +27139,17 @@ function App() {
                                             children: [
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                     className: "musique-1",
-                                                    children: "Musique"
+                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                        href: "http://localhost:1234/StreamsCard",
+                                                        children: "Musique"
+                                                    }, void 0, false, {
+                                                        fileName: "App.jsx",
+                                                        lineNumber: 38,
+                                                        columnNumber: 21
+                                                    }, this)
                                                 }, void 0, false, {
                                                     fileName: "App.jsx",
-                                                    lineNumber: 34,
+                                                    lineNumber: 37,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -27147,13 +27157,13 @@ function App() {
                                                     src: "/img/microphone-png7930-1-1@2x.png"
                                                 }, void 0, false, {
                                                     fileName: "App.jsx",
-                                                    lineNumber: 35,
+                                                    lineNumber: 40,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "App.jsx",
-                                            lineNumber: 33,
+                                            lineNumber: 36,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27161,10 +27171,17 @@ function App() {
                                             children: [
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                     className: "thatre-1",
-                                                    children: "Th\xe9atre"
+                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                        href: "http://localhost:1234/StreamsCard",
+                                                        children: "Th\xe9atre"
+                                                    }, void 0, false, {
+                                                        fileName: "App.jsx",
+                                                        lineNumber: 47,
+                                                        columnNumber: 21
+                                                    }, this)
                                                 }, void 0, false, {
                                                     fileName: "App.jsx",
-                                                    lineNumber: 41,
+                                                    lineNumber: 46,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -27172,13 +27189,13 @@ function App() {
                                                     src: "/img/th-atre-masque@2x.png"
                                                 }, void 0, false, {
                                                     fileName: "App.jsx",
-                                                    lineNumber: 42,
+                                                    lineNumber: 49,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "App.jsx",
-                                            lineNumber: 40,
+                                            lineNumber: 45,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27188,10 +27205,17 @@ function App() {
                                                 children: [
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                         className: "danse-1 inter-normal-black-32px",
-                                                        children: "Danse"
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                            href: "http://localhost:1234/StreamsCard",
+                                                            children: "Dance"
+                                                        }, void 0, false, {
+                                                            fileName: "App.jsx",
+                                                            lineNumber: 57,
+                                                            columnNumber: 23
+                                                        }, this)
                                                     }, void 0, false, {
                                                         fileName: "App.jsx",
-                                                        lineNumber: 49,
+                                                        lineNumber: 56,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -27199,18 +27223,18 @@ function App() {
                                                         src: "/img/danse-danseuse@2x.png"
                                                     }, void 0, false, {
                                                         fileName: "App.jsx",
-                                                        lineNumber: 50,
+                                                        lineNumber: 59,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "App.jsx",
-                                                lineNumber: 48,
+                                                lineNumber: 55,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "App.jsx",
-                                            lineNumber: 47,
+                                            lineNumber: 54,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27220,10 +27244,17 @@ function App() {
                                                 children: [
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                         className: "irl-1 inter-normal-black-32px",
-                                                        children: "IRL"
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                                            href: "http://localhost:1234/StreamsCard",
+                                                            children: "IRL"
+                                                        }, void 0, false, {
+                                                            fileName: "App.jsx",
+                                                            lineNumber: 68,
+                                                            columnNumber: 23
+                                                        }, this)
                                                     }, void 0, false, {
                                                         fileName: "App.jsx",
-                                                        lineNumber: 58,
+                                                        lineNumber: 67,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -27231,38 +27262,44 @@ function App() {
                                                         src: "/img/image-2-1@2x.png"
                                                     }, void 0, false, {
                                                         fileName: "App.jsx",
-                                                        lineNumber: 59,
+                                                        lineNumber: 70,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "App.jsx",
-                                                lineNumber: 57,
+                                                lineNumber: 66,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "App.jsx",
-                                            lineNumber: 56,
+                                            lineNumber: 65,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "App.jsx",
-                                    lineNumber: 25,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactTwitchEmbed.TwitchPlayer), {
-                                    channel: "smoke",
-                                    height: "300",
-                                    width: "300"
-                                }, void 0, false, {
-                                    fileName: "App.jsx",
-                                    lineNumber: 66,
+                                    lineNumber: 28,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                     className: "app_-container",
                                     children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "app_player",
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactTwitchEmbed.TwitchPlayer), {
+                                                className: "vid\xe9oBase",
+                                                channel: "smoke"
+                                            }, void 0, false, {
+                                                fileName: "App.jsx",
+                                                lineNumber: 79,
+                                                columnNumber: 19
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "App.jsx",
+                                            lineNumber: 78,
+                                            columnNumber: 17
+                                        }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                             className: "app_soudage",
                                             children: [
@@ -27271,7 +27308,7 @@ function App() {
                                                     children: "Sondage :"
                                                 }, void 0, false, {
                                                     fileName: "App.jsx",
-                                                    lineNumber: 69,
+                                                    lineNumber: 82,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27281,45 +27318,45 @@ function App() {
                                                         children: "Envoyer"
                                                     }, void 0, false, {
                                                         fileName: "App.jsx",
-                                                        lineNumber: 73,
+                                                        lineNumber: 86,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "App.jsx",
-                                                    lineNumber: 72,
+                                                    lineNumber: 85,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "App.jsx",
-                                            lineNumber: 68,
+                                            lineNumber: 81,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _tchatDefault.default), {}, void 0, false, {
                                             fileName: "App.jsx",
-                                            lineNumber: 76,
+                                            lineNumber: 89,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "App.jsx",
-                                    lineNumber: 67,
+                                    lineNumber: 77,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "App.jsx",
-                            lineNumber: 20,
+                            lineNumber: 23,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "App.jsx",
-                        lineNumber: 19,
+                        lineNumber: 22,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "App.jsx",
-                    lineNumber: 18,
+                    lineNumber: 21,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
@@ -27328,23 +27365,35 @@ function App() {
                         ...mobileData
                     }, void 0, false, {
                         fileName: "App.jsx",
-                        lineNumber: 82,
+                        lineNumber: 96,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "App.jsx",
-                    lineNumber: 81,
+                    lineNumber: 95,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                    path: "/StreamsCard",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _streamsCardDefault.default), {}, void 0, false, {
+                        fileName: "App.jsx",
+                        lineNumber: 99,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "App.jsx",
+                    lineNumber: 98,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "App.jsx",
-            lineNumber: 17,
+            lineNumber: 20,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "App.jsx",
-        lineNumber: 16,
+        lineNumber: 19,
         columnNumber: 5
     }, this);
 }
@@ -27391,7 +27440,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","./App.css":"7g3a6","react":"21dqq","react-router-dom":"cHIiW","./components/AppNavbar":"8pulk","./components/Mobile":"70A5n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/tchat":"3eDIh","react-twitch-embed":"kQseg"}],"7g3a6":[function() {},{}],"cHIiW":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","./App.css":"7g3a6","react":"21dqq","react-router-dom":"cHIiW","./components/AppNavbar":"8pulk","./components/Mobile":"70A5n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/tchat":"3eDIh","react-twitch-embed":"kQseg","./components/StreamsCard":"t1a0q"}],"7g3a6":[function() {},{}],"cHIiW":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "MemoryRouter", ()=>(0, _reactRouter.MemoryRouter));
@@ -31138,11 +31187,19 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _socketIoClient = require("socket.io-client");
 var _socketIoClientDefault = parcelHelpers.interopDefault(_socketIoClient);
+var _tchatCss = require("../styles/tchat.css");
+var _reactSpeechRecognition = require("react-speech-recognition");
+var _reactSpeechRecognitionDefault = parcelHelpers.interopDefault(_reactSpeechRecognition);
 var _s = $RefreshSig$();
 function Tchat() {
     _s();
     const [messages, setMessages] = (0, _react.useState)([]);
     const socket = (0, _socketIoClientDefault.default)("localhost:3001");
+    const [toggleTchat, setToggleTchat] = (0, _react.useState)(1);
+    const toggleTchatV = (index)=>{
+        setToggleTchat(index);
+    };
+    const { transcript , listening , resetTranscript  } = (0, _reactSpeechRecognition.useSpeechRecognition)();
     socket.on("SERVER_MSG", (msg)=>{
         setNewMessage(msg);
     });
@@ -31160,7 +31217,23 @@ function Tchat() {
         };
         socket.emit("CLIENT_MSG", msg);
         setNewMessage(msg);
+    // e.target.user.value = { transcript };
     }
+    function sendMessageVocal(e) {
+        e.preventDefault();
+        const msg = {
+            username: e.target.username.value,
+            text: e.target.vocal.value
+        };
+        socket.emit("CLIENT_MSG", msg);
+        setNewMessage(msg);
+    // e.target.user.value = { transcript };
+    }
+    // function sendAll(e){
+    //   sendMessage(e);
+    //   console.log();
+    //   setNewMessage(transcript);
+    // }
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
             className: "app_tchat border-1px-black",
@@ -31178,89 +31251,149 @@ function Tchat() {
                                 ]
                             }, true, true, {
                                 fileName: "components/tchat.js",
-                                lineNumber: 33,
+                                lineNumber: 62,
                                 columnNumber: 17
                             }, this);
                         })
                     }, void 0, false, {
                         fileName: "components/tchat.js",
-                        lineNumber: 30,
+                        lineNumber: 59,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "app_tchat-edition",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
-                            onSubmit: (e)=>sendMessage(e),
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "app_tchatbar",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                                        id: "username",
-                                        type: "text",
-                                        placeholder: "Username",
-                                        className: "form-control"
-                                    }, void 0, false, {
-                                        fileName: "components/tchat.js",
-                                        lineNumber: 42,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                                        fileName: "components/tchat.js",
-                                        lineNumber: 48,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                                        id: "text",
-                                        type: "text",
-                                        placeholder: "Your message",
-                                        className: "form-control"
-                                    }, void 0, false, {
-                                        fileName: "components/tchat.js",
-                                        lineNumber: 49,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                        type: "submit",
-                                        children: "envoyer"
-                                    }, void 0, false, {
-                                        fileName: "components/tchat.js",
-                                        lineNumber: 55,
-                                        columnNumber: 17
-                                    }, this)
-                                ]
-                            }, void 0, true, {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
+                                onSubmit: toggleTchat === 2 ? (e)=>sendMessageVocal(e) : (e)=>sendMessage(e),
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "app_tchatbar",
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                            id: "username",
+                                            type: "text",
+                                            placeholder: "Votre pseudonyme",
+                                            className: "form-control",
+                                            required: true
+                                        }, void 0, false, {
+                                            fileName: "components/tchat.js",
+                                            lineNumber: 71,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                            fileName: "components/tchat.js",
+                                            lineNumber: 78,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                            id: "text",
+                                            type: "text",
+                                            placeholder: "Entrez votre message",
+                                            className: toggleTchat === 1 ? "TchatContent activeTchatContent" : "TchatContent"
+                                        }, void 0, false, {
+                                            fileName: "components/tchat.js",
+                                            lineNumber: 79,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                            id: "vocal",
+                                            type: "text",
+                                            value: transcript,
+                                            placeholder: "Entrez votre message",
+                                            className: toggleTchat === 2 ? "TchatContent activeTchatContent" : "TchatContent"
+                                        }, void 0, false, {
+                                            fileName: "components/tchat.js",
+                                            lineNumber: 90,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                            type: "submit",
+                                            children: "envoyer"
+                                        }, void 0, false, {
+                                            fileName: "components/tchat.js",
+                                            lineNumber: 102,
+                                            columnNumber: 17
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "components/tchat.js",
+                                    lineNumber: 70,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
                                 fileName: "components/tchat.js",
-                                lineNumber: 41,
-                                columnNumber: 15
+                                lineNumber: 69,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                className: toggleTchat === 1 ? "Tchat activeTchat" : "Tchat",
+                                onClick: ()=>{
+                                    toggleTchatV(1);
+                                },
+                                "data-anim": "1",
+                                children: "Text"
+                            }, void 0, false, {
+                                fileName: "components/tchat.js",
+                                lineNumber: 105,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                className: toggleTchat === 2 ? "Tchat activeTchat" : "Tchat",
+                                onClick: ()=>{
+                                    toggleTchatV(2);
+                                },
+                                "data-anim": "2",
+                                children: "Vocal"
+                            }, void 0, false, {
+                                fileName: "components/tchat.js",
+                                lineNumber: 116,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                className: toggleTchat === 2 ? "TchatContent activeTchatContent" : "TchatContent",
+                                onClick: (0, _reactSpeechRecognitionDefault.default).startListening,
+                                children: "Start"
+                            }, void 0, false, {
+                                fileName: "components/tchat.js",
+                                lineNumber: 126,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                className: toggleTchat === 2 ? "TchatContent activeTchatContent" : "TchatContent",
+                                onClick: resetTranscript,
+                                children: "Reset"
+                            }, void 0, false, {
+                                fileName: "components/tchat.js",
+                                lineNumber: 136,
+                                columnNumber: 13
                             }, this)
-                        }, void 0, false, {
-                            fileName: "components/tchat.js",
-                            lineNumber: 40,
-                            columnNumber: 13
-                        }, this)
-                    }, void 0, false, {
+                        ]
+                    }, void 0, true, {
                         fileName: "components/tchat.js",
-                        lineNumber: 39,
+                        lineNumber: 68,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "components/tchat.js",
-                lineNumber: 29,
+                lineNumber: 58,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "components/tchat.js",
-            lineNumber: 28,
+            lineNumber: 57,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "components/tchat.js",
-        lineNumber: 27,
+        lineNumber: 56,
         columnNumber: 5
     }, this);
 }
-_s(Tchat, "dxxfFX7fiXmC0h9Fk+B7I5VonqM=");
+_s(Tchat, "2o3SuQQ9/60nS9pBbK2ElyVO9WM=", false, function() {
+    return [
+        (0, _reactSpeechRecognition.useSpeechRecognition)
+    ];
+});
 _c = Tchat;
 exports.default = Tchat;
 var _c;
@@ -31271,7 +31404,7 @@ $RefreshReg$(_c, "Tchat");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","socket.io-client":"8HBJR","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"8HBJR":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","socket.io-client":"8HBJR","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../styles/tchat.css":"fyafa","react-speech-recognition":"HQfK2"}],"8HBJR":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 /**
@@ -35848,7 +35981,975 @@ function Backoff(opts) {
     this.jitter = jitter;
 };
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"kQseg":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fyafa":[function() {},{}],"HQfK2":[function(require,module,exports) {
+"use strict";
+function _typeof(obj1) {
+    "@babel/helpers - typeof";
+    if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") _typeof = function _typeof(obj) {
+        return typeof obj;
+    };
+    else _typeof = function _typeof(obj) {
+        return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
+    };
+    return _typeof(obj1);
+}
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+Object.defineProperty(exports, "useSpeechRecognition", {
+    enumerable: true,
+    get: function get() {
+        return _SpeechRecognition.useSpeechRecognition;
+    }
+});
+exports["default"] = void 0;
+var _SpeechRecognition = _interopRequireWildcard(require("./SpeechRecognition"));
+function _getRequireWildcardCache() {
+    if (typeof WeakMap !== "function") return null;
+    var cache = new WeakMap();
+    _getRequireWildcardCache = function _getRequireWildcardCache() {
+        return cache;
+    };
+    return cache;
+}
+function _interopRequireWildcard(obj) {
+    if (obj && obj.__esModule) return obj;
+    if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") return {
+        "default": obj
+    };
+    var cache = _getRequireWildcardCache();
+    if (cache && cache.has(obj)) return cache.get(obj);
+    var newObj = {};
+    var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor;
+    for(var key in obj)if (Object.prototype.hasOwnProperty.call(obj, key)) {
+        var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null;
+        if (desc && (desc.get || desc.set)) Object.defineProperty(newObj, key, desc);
+        else newObj[key] = obj[key];
+    }
+    newObj["default"] = obj;
+    if (cache) cache.set(obj, newObj);
+    return newObj;
+}
+var _default = _SpeechRecognition["default"];
+exports["default"] = _default;
+
+},{"./SpeechRecognition":"62I5z"}],"62I5z":[function(require,module,exports) {
+"use strict";
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports["default"] = exports.useSpeechRecognition = void 0;
+var _react = require("react");
+var _utils = require("./utils");
+var _actions = require("./actions");
+var _reducers = require("./reducers");
+var _RecognitionManager = _interopRequireDefault(require("./RecognitionManager"));
+var _isAndroid = _interopRequireDefault(require("./isAndroid"));
+var _NativeSpeechRecognition = _interopRequireDefault(require("./NativeSpeechRecognition"));
+function _interopRequireDefault(obj) {
+    return obj && obj.__esModule ? obj : {
+        "default": obj
+    };
+}
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
+    try {
+        var info = gen[key](arg);
+        var value = info.value;
+    } catch (error) {
+        reject(error);
+        return;
+    }
+    if (info.done) resolve(value);
+    else Promise.resolve(value).then(_next, _throw);
+}
+function _asyncToGenerator(fn) {
+    return function() {
+        var self = this, args = arguments;
+        return new Promise(function(resolve, reject) {
+            var gen = fn.apply(self, args);
+            function _next(value) {
+                asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);
+            }
+            function _throw(err) {
+                asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);
+            }
+            _next(undefined);
+        });
+    };
+}
+function _toConsumableArray(arr) {
+    return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread();
+}
+function _nonIterableSpread() {
+    throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+}
+function _iterableToArray(iter) {
+    if (typeof Symbol !== "undefined" && Symbol.iterator in Object(iter)) return Array.from(iter);
+}
+function _arrayWithoutHoles(arr) {
+    if (Array.isArray(arr)) return _arrayLikeToArray(arr);
+}
+function _typeof(obj1) {
+    "@babel/helpers - typeof";
+    if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") _typeof = function _typeof(obj) {
+        return typeof obj;
+    };
+    else _typeof = function _typeof(obj) {
+        return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
+    };
+    return _typeof(obj1);
+}
+function _slicedToArray(arr, i) {
+    return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest();
+}
+function _nonIterableRest() {
+    throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+}
+function _unsupportedIterableToArray(o, minLen) {
+    if (!o) return;
+    if (typeof o === "string") return _arrayLikeToArray(o, minLen);
+    var n = Object.prototype.toString.call(o).slice(8, -1);
+    if (n === "Object" && o.constructor) n = o.constructor.name;
+    if (n === "Map" || n === "Set") return Array.from(o);
+    if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);
+}
+function _arrayLikeToArray(arr, len) {
+    if (len == null || len > arr.length) len = arr.length;
+    for(var i = 0, arr2 = new Array(len); i < len; i++)arr2[i] = arr[i];
+    return arr2;
+}
+function _iterableToArrayLimit(arr, i) {
+    if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return;
+    var _arr = [];
+    var _n = true;
+    var _d = false;
+    var _e = undefined;
+    try {
+        for(var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true){
+            _arr.push(_s.value);
+            if (i && _arr.length === i) break;
+        }
+    } catch (err) {
+        _d = true;
+        _e = err;
+    } finally{
+        try {
+            if (!_n && _i["return"] != null) _i["return"]();
+        } finally{
+            if (_d) throw _e;
+        }
+    }
+    return _arr;
+}
+function _arrayWithHoles(arr) {
+    if (Array.isArray(arr)) return arr;
+}
+var _browserSupportsSpeechRecognition = !!_NativeSpeechRecognition["default"];
+var _browserSupportsContinuousListening = _browserSupportsSpeechRecognition && !(0, _isAndroid["default"])();
+var recognitionManager;
+var useSpeechRecognition = function useSpeechRecognition() {
+    var _ref = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {}, _ref$transcribing = _ref.transcribing, transcribing = _ref$transcribing === void 0 ? true : _ref$transcribing, _ref$clearTranscriptO = _ref.clearTranscriptOnListen, clearTranscriptOnListen = _ref$clearTranscriptO === void 0 ? true : _ref$clearTranscriptO, _ref$commands = _ref.commands, commands = _ref$commands === void 0 ? [] : _ref$commands;
+    var _useState = (0, _react.useState)(SpeechRecognition.getRecognitionManager()), _useState2 = _slicedToArray(_useState, 1), recognitionManager1 = _useState2[0];
+    var _useState3 = (0, _react.useState)(_browserSupportsSpeechRecognition), _useState4 = _slicedToArray(_useState3, 2), browserSupportsSpeechRecognition = _useState4[0], setBrowserSupportsSpeechRecognition = _useState4[1];
+    var _useState5 = (0, _react.useState)(_browserSupportsContinuousListening), _useState6 = _slicedToArray(_useState5, 2), browserSupportsContinuousListening = _useState6[0], setBrowserSupportsContinuousListening = _useState6[1];
+    var _useReducer = (0, _react.useReducer)(_reducers.transcriptReducer, {
+        interimTranscript: recognitionManager1.interimTranscript,
+        finalTranscript: ""
+    }), _useReducer2 = _slicedToArray(_useReducer, 2), _useReducer2$ = _useReducer2[0], interimTranscript = _useReducer2$.interimTranscript, finalTranscript = _useReducer2$.finalTranscript, dispatch = _useReducer2[1];
+    var _useState7 = (0, _react.useState)(recognitionManager1.listening), _useState8 = _slicedToArray(_useState7, 2), listening = _useState8[0], setListening = _useState8[1];
+    var _useState9 = (0, _react.useState)(recognitionManager1.isMicrophoneAvailable), _useState10 = _slicedToArray(_useState9, 2), isMicrophoneAvailable = _useState10[0], setMicrophoneAvailable = _useState10[1];
+    var commandsRef = (0, _react.useRef)(commands);
+    commandsRef.current = commands;
+    var dispatchClearTranscript = function dispatchClearTranscript() {
+        dispatch((0, _actions.clearTranscript)());
+    };
+    var resetTranscript = (0, _react.useCallback)(function() {
+        recognitionManager1.resetTranscript();
+        dispatchClearTranscript();
+    }, [
+        recognitionManager1
+    ]);
+    var testFuzzyMatch = function testFuzzyMatch(command, input, fuzzyMatchingThreshold) {
+        var commandToString = _typeof(command) === "object" ? command.toString() : command;
+        var commandWithoutSpecials = commandToString.replace(/[&/\\#,+()!$~%.'":*?<>{}]/g, "").replace(/  +/g, " ").trim();
+        var howSimilar = (0, _utils.compareTwoStringsUsingDiceCoefficient)(commandWithoutSpecials, input);
+        if (howSimilar >= fuzzyMatchingThreshold) return {
+            command: command,
+            commandWithoutSpecials: commandWithoutSpecials,
+            howSimilar: howSimilar,
+            isFuzzyMatch: true
+        };
+        return null;
+    };
+    var testMatch = function testMatch(command, input) {
+        var pattern = (0, _utils.commandToRegExp)(command);
+        var result = pattern.exec(input);
+        if (result) return {
+            command: command,
+            parameters: result.slice(1)
+        };
+        return null;
+    };
+    var matchCommands = (0, _react.useCallback)(function(newInterimTranscript, newFinalTranscript) {
+        commandsRef.current.forEach(function(_ref2) {
+            var command = _ref2.command, callback = _ref2.callback, _ref2$matchInterim = _ref2.matchInterim, matchInterim = _ref2$matchInterim === void 0 ? false : _ref2$matchInterim, _ref2$isFuzzyMatch = _ref2.isFuzzyMatch, isFuzzyMatch = _ref2$isFuzzyMatch === void 0 ? false : _ref2$isFuzzyMatch, _ref2$fuzzyMatchingTh = _ref2.fuzzyMatchingThreshold, fuzzyMatchingThreshold = _ref2$fuzzyMatchingTh === void 0 ? 0.8 : _ref2$fuzzyMatchingTh, _ref2$bestMatchOnly = _ref2.bestMatchOnly, bestMatchOnly = _ref2$bestMatchOnly === void 0 ? false : _ref2$bestMatchOnly;
+            var input = !newFinalTranscript && matchInterim ? newInterimTranscript.trim() : newFinalTranscript.trim();
+            var subcommands = Array.isArray(command) ? command : [
+                command
+            ];
+            var results = subcommands.map(function(subcommand) {
+                if (isFuzzyMatch) return testFuzzyMatch(subcommand, input, fuzzyMatchingThreshold);
+                return testMatch(subcommand, input);
+            }).filter(function(x) {
+                return x;
+            });
+            if (isFuzzyMatch && bestMatchOnly && results.length >= 2) {
+                results.sort(function(a, b) {
+                    return b.howSimilar - a.howSimilar;
+                });
+                var _results$ = results[0], _command = _results$.command, commandWithoutSpecials = _results$.commandWithoutSpecials, howSimilar = _results$.howSimilar;
+                callback(commandWithoutSpecials, input, howSimilar, {
+                    command: _command,
+                    resetTranscript: resetTranscript
+                });
+            } else results.forEach(function(result) {
+                if (result.isFuzzyMatch) {
+                    var _command2 = result.command, _commandWithoutSpecials = result.commandWithoutSpecials, _howSimilar = result.howSimilar;
+                    callback(_commandWithoutSpecials, input, _howSimilar, {
+                        command: _command2,
+                        resetTranscript: resetTranscript
+                    });
+                } else {
+                    var _command3 = result.command, parameters = result.parameters;
+                    callback.apply(void 0, _toConsumableArray(parameters).concat([
+                        {
+                            command: _command3,
+                            resetTranscript: resetTranscript
+                        }
+                    ]));
+                }
+            });
+        });
+    }, [
+        resetTranscript
+    ]);
+    var handleTranscriptChange = (0, _react.useCallback)(function(newInterimTranscript, newFinalTranscript) {
+        if (transcribing) dispatch((0, _actions.appendTranscript)(newInterimTranscript, newFinalTranscript));
+        matchCommands(newInterimTranscript, newFinalTranscript);
+    }, [
+        matchCommands,
+        transcribing
+    ]);
+    var handleClearTranscript = (0, _react.useCallback)(function() {
+        if (clearTranscriptOnListen) dispatchClearTranscript();
+    }, [
+        clearTranscriptOnListen
+    ]);
+    (0, _react.useEffect)(function() {
+        var id = SpeechRecognition.counter;
+        SpeechRecognition.counter += 1;
+        var callbacks = {
+            onListeningChange: setListening,
+            onMicrophoneAvailabilityChange: setMicrophoneAvailable,
+            onTranscriptChange: handleTranscriptChange,
+            onClearTranscript: handleClearTranscript,
+            onBrowserSupportsSpeechRecognitionChange: setBrowserSupportsSpeechRecognition,
+            onBrowserSupportsContinuousListeningChange: setBrowserSupportsContinuousListening
+        };
+        recognitionManager1.subscribe(id, callbacks);
+        return function() {
+            recognitionManager1.unsubscribe(id);
+        };
+    }, [
+        transcribing,
+        clearTranscriptOnListen,
+        recognitionManager1,
+        handleTranscriptChange,
+        handleClearTranscript
+    ]);
+    var transcript = (0, _utils.concatTranscripts)(finalTranscript, interimTranscript);
+    return {
+        transcript: transcript,
+        interimTranscript: interimTranscript,
+        finalTranscript: finalTranscript,
+        listening: listening,
+        isMicrophoneAvailable: isMicrophoneAvailable,
+        resetTranscript: resetTranscript,
+        browserSupportsSpeechRecognition: browserSupportsSpeechRecognition,
+        browserSupportsContinuousListening: browserSupportsContinuousListening
+    };
+};
+exports.useSpeechRecognition = useSpeechRecognition;
+var SpeechRecognition = {
+    counter: 0,
+    applyPolyfill: function applyPolyfill(PolyfillSpeechRecognition) {
+        if (recognitionManager) recognitionManager.setSpeechRecognition(PolyfillSpeechRecognition);
+        else recognitionManager = new _RecognitionManager["default"](PolyfillSpeechRecognition);
+        var browserSupportsPolyfill = !!PolyfillSpeechRecognition && (0, _utils.browserSupportsPolyfills)();
+        _browserSupportsSpeechRecognition = browserSupportsPolyfill;
+        _browserSupportsContinuousListening = browserSupportsPolyfill;
+    },
+    getRecognitionManager: function getRecognitionManager() {
+        if (!recognitionManager) recognitionManager = new _RecognitionManager["default"](_NativeSpeechRecognition["default"]);
+        return recognitionManager;
+    },
+    getRecognition: function getRecognition() {
+        var recognitionManager2 = SpeechRecognition.getRecognitionManager();
+        return recognitionManager2.getRecognition();
+    },
+    startListening: function() {
+        var _startListening = _asyncToGenerator(/*#__PURE__*/ regeneratorRuntime.mark(function _callee() {
+            var _ref3, continuous, language, recognitionManager3, _args = arguments;
+            return regeneratorRuntime.wrap(function _callee$(_context) {
+                while(true)switch(_context.prev = _context.next){
+                    case 0:
+                        _ref3 = _args.length > 0 && _args[0] !== undefined ? _args[0] : {}, continuous = _ref3.continuous, language = _ref3.language;
+                        recognitionManager3 = SpeechRecognition.getRecognitionManager();
+                        _context.next = 4;
+                        return recognitionManager3.startListening({
+                            continuous: continuous,
+                            language: language
+                        });
+                    case 4:
+                    case "end":
+                        return _context.stop();
+                }
+            }, _callee);
+        }));
+        function startListening() {
+            return _startListening.apply(this, arguments);
+        }
+        return startListening;
+    }(),
+    stopListening: function() {
+        var _stopListening = _asyncToGenerator(/*#__PURE__*/ regeneratorRuntime.mark(function _callee2() {
+            var recognitionManager4;
+            return regeneratorRuntime.wrap(function _callee2$(_context2) {
+                while(true)switch(_context2.prev = _context2.next){
+                    case 0:
+                        recognitionManager4 = SpeechRecognition.getRecognitionManager();
+                        _context2.next = 3;
+                        return recognitionManager4.stopListening();
+                    case 3:
+                    case "end":
+                        return _context2.stop();
+                }
+            }, _callee2);
+        }));
+        function stopListening() {
+            return _stopListening.apply(this, arguments);
+        }
+        return stopListening;
+    }(),
+    abortListening: function() {
+        var _abortListening = _asyncToGenerator(/*#__PURE__*/ regeneratorRuntime.mark(function _callee3() {
+            var recognitionManager5;
+            return regeneratorRuntime.wrap(function _callee3$(_context3) {
+                while(true)switch(_context3.prev = _context3.next){
+                    case 0:
+                        recognitionManager5 = SpeechRecognition.getRecognitionManager();
+                        _context3.next = 3;
+                        return recognitionManager5.abortListening();
+                    case 3:
+                    case "end":
+                        return _context3.stop();
+                }
+            }, _callee3);
+        }));
+        function abortListening() {
+            return _abortListening.apply(this, arguments);
+        }
+        return abortListening;
+    }(),
+    browserSupportsSpeechRecognition: function browserSupportsSpeechRecognition() {
+        return _browserSupportsSpeechRecognition;
+    },
+    browserSupportsContinuousListening: function browserSupportsContinuousListening() {
+        return _browserSupportsContinuousListening;
+    }
+};
+var _default = SpeechRecognition;
+exports["default"] = _default;
+
+},{"react":"21dqq","./utils":"e5Xtz","./actions":"cZDuQ","./reducers":"ISCXw","./RecognitionManager":"lbJa0","./isAndroid":"967Lu","./NativeSpeechRecognition":"5WkEd"}],"e5Xtz":[function(require,module,exports) {
+"use strict";
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.browserSupportsPolyfills = exports.compareTwoStringsUsingDiceCoefficient = exports.commandToRegExp = exports.concatTranscripts = exports.debounce = void 0;
+var debounce = function debounce(func, wait, immediate) {
+    var timeout;
+    return function() {
+        var context = this;
+        var args = arguments;
+        var later = function later() {
+            timeout = null;
+            if (!immediate) func.apply(context, args);
+        };
+        var callNow = immediate && !timeout;
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+        if (callNow) func.apply(context, args);
+    };
+};
+exports.debounce = debounce;
+var concatTranscripts = function concatTranscripts() {
+    for(var _len = arguments.length, transcriptParts = new Array(_len), _key = 0; _key < _len; _key++)transcriptParts[_key] = arguments[_key];
+    return transcriptParts.map(function(t) {
+        return t.trim();
+    }).join(" ").trim();
+}; // The command matching code is a modified version of Backbone.Router by Jeremy Ashkenas, under the MIT license.
+exports.concatTranscripts = concatTranscripts;
+var optionalParam = /\s*\((.*?)\)\s*/g;
+var optionalRegex = /(\(\?:[^)]+\))\?/g;
+var namedParam = /(\(\?)?:\w+/g;
+var splatParam = /\*/g;
+var escapeRegExp = /[-{}[\]+?.,\\^$|#]/g;
+var commandToRegExp = function commandToRegExp(command) {
+    if (command instanceof RegExp) return new RegExp(command.source, "i");
+    command = command.replace(escapeRegExp, "\\$&").replace(optionalParam, "(?:$1)?").replace(namedParam, function(match, optional) {
+        return optional ? match : "([^\\s]+)";
+    }).replace(splatParam, "(.*?)").replace(optionalRegex, "\\s*$1?\\s*");
+    return new RegExp("^" + command + "$", "i");
+}; // this is from https://github.com/aceakash/string-similarity
+exports.commandToRegExp = commandToRegExp;
+var compareTwoStringsUsingDiceCoefficient = function compareTwoStringsUsingDiceCoefficient(first, second) {
+    first = first.replace(/\s+/g, "").toLowerCase();
+    second = second.replace(/\s+/g, "").toLowerCase();
+    if (!first.length && !second.length) return 1; // if both are empty strings
+    if (!first.length || !second.length) return 0; // if only one is empty string
+    if (first === second) return 1; // identical
+    if (first.length === 1 && second.length === 1) return 0; // both are 1-letter strings
+    if (first.length < 2 || second.length < 2) return 0; // if either is a 1-letter string
+    var firstBigrams = new Map();
+    for(var i = 0; i < first.length - 1; i++){
+        var bigram = first.substring(i, i + 2);
+        var count = firstBigrams.has(bigram) ? firstBigrams.get(bigram) + 1 : 1;
+        firstBigrams.set(bigram, count);
+    }
+    var intersectionSize = 0;
+    for(var _i = 0; _i < second.length - 1; _i++){
+        var _bigram = second.substring(_i, _i + 2);
+        var _count = firstBigrams.has(_bigram) ? firstBigrams.get(_bigram) : 0;
+        if (_count > 0) {
+            firstBigrams.set(_bigram, _count - 1);
+            intersectionSize++;
+        }
+    }
+    return 2.0 * intersectionSize / (first.length + second.length - 2);
+};
+exports.compareTwoStringsUsingDiceCoefficient = compareTwoStringsUsingDiceCoefficient;
+var browserSupportsPolyfills = function browserSupportsPolyfills() {
+    return typeof window !== "undefined" && window.navigator !== undefined && window.navigator.mediaDevices !== undefined && window.navigator.mediaDevices.getUserMedia !== undefined && (window.AudioContext !== undefined || window.webkitAudioContext !== undefined);
+};
+exports.browserSupportsPolyfills = browserSupportsPolyfills;
+
+},{}],"cZDuQ":[function(require,module,exports) {
+"use strict";
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.appendTranscript = exports.clearTranscript = void 0;
+var _constants = require("./constants");
+var clearTranscript = function clearTranscript() {
+    return {
+        type: _constants.CLEAR_TRANSCRIPT
+    };
+};
+exports.clearTranscript = clearTranscript;
+var appendTranscript = function appendTranscript(interimTranscript, finalTranscript) {
+    return {
+        type: _constants.APPEND_TRANSCRIPT,
+        payload: {
+            interimTranscript: interimTranscript,
+            finalTranscript: finalTranscript
+        }
+    };
+};
+exports.appendTranscript = appendTranscript;
+
+},{"./constants":"2jBZU"}],"2jBZU":[function(require,module,exports) {
+"use strict";
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.APPEND_TRANSCRIPT = exports.CLEAR_TRANSCRIPT = void 0;
+var CLEAR_TRANSCRIPT = "CLEAR_TRANSCRIPT";
+exports.CLEAR_TRANSCRIPT = CLEAR_TRANSCRIPT;
+var APPEND_TRANSCRIPT = "APPEND_TRANSCRIPT";
+exports.APPEND_TRANSCRIPT = APPEND_TRANSCRIPT;
+
+},{}],"ISCXw":[function(require,module,exports) {
+"use strict";
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.transcriptReducer = void 0;
+var _constants = require("./constants");
+var _utils = require("./utils");
+var transcriptReducer = function transcriptReducer(state, action) {
+    switch(action.type){
+        case _constants.CLEAR_TRANSCRIPT:
+            return {
+                interimTranscript: "",
+                finalTranscript: ""
+            };
+        case _constants.APPEND_TRANSCRIPT:
+            return {
+                interimTranscript: action.payload.interimTranscript,
+                finalTranscript: (0, _utils.concatTranscripts)(state.finalTranscript, action.payload.finalTranscript)
+            };
+        default:
+            throw new Error();
+    }
+};
+exports.transcriptReducer = transcriptReducer;
+
+},{"./constants":"2jBZU","./utils":"e5Xtz"}],"lbJa0":[function(require,module,exports) {
+"use strict";
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports["default"] = void 0;
+var _isAndroid = _interopRequireDefault(require("./isAndroid"));
+var _utils = require("./utils");
+var _NativeSpeechRecognition = require("./NativeSpeechRecognition");
+function _interopRequireDefault(obj) {
+    return obj && obj.__esModule ? obj : {
+        "default": obj
+    };
+}
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
+    try {
+        var info = gen[key](arg);
+        var value = info.value;
+    } catch (error) {
+        reject(error);
+        return;
+    }
+    if (info.done) resolve(value);
+    else Promise.resolve(value).then(_next, _throw);
+}
+function _asyncToGenerator(fn) {
+    return function() {
+        var self = this, args = arguments;
+        return new Promise(function(resolve, reject) {
+            var gen = fn.apply(self, args);
+            function _next(value) {
+                asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);
+            }
+            function _throw(err) {
+                asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);
+            }
+            _next(undefined);
+        });
+    };
+}
+function _classCallCheck(instance, Constructor) {
+    if (!(instance instanceof Constructor)) throw new TypeError("Cannot call a class as a function");
+}
+function _defineProperties(target, props) {
+    for(var i = 0; i < props.length; i++){
+        var descriptor = props[i];
+        descriptor.enumerable = descriptor.enumerable || false;
+        descriptor.configurable = true;
+        if ("value" in descriptor) descriptor.writable = true;
+        Object.defineProperty(target, descriptor.key, descriptor);
+    }
+}
+function _createClass(Constructor, protoProps, staticProps) {
+    if (protoProps) _defineProperties(Constructor.prototype, protoProps);
+    if (staticProps) _defineProperties(Constructor, staticProps);
+    return Constructor;
+}
+var RecognitionManager = /*#__PURE__*/ function() {
+    function RecognitionManager1(SpeechRecognition) {
+        _classCallCheck(this, RecognitionManager1);
+        this.recognition = null;
+        this.pauseAfterDisconnect = false;
+        this.interimTranscript = "";
+        this.finalTranscript = "";
+        this.listening = false;
+        this.isMicrophoneAvailable = true;
+        this.subscribers = {};
+        this.onStopListening = function() {};
+        this.previousResultWasFinalOnly = false;
+        this.resetTranscript = this.resetTranscript.bind(this);
+        this.startListening = this.startListening.bind(this);
+        this.stopListening = this.stopListening.bind(this);
+        this.abortListening = this.abortListening.bind(this);
+        this.setSpeechRecognition = this.setSpeechRecognition.bind(this);
+        this.disableRecognition = this.disableRecognition.bind(this);
+        this.setSpeechRecognition(SpeechRecognition);
+        if ((0, _isAndroid["default"])()) this.updateFinalTranscript = (0, _utils.debounce)(this.updateFinalTranscript, 250, true);
+    }
+    _createClass(RecognitionManager1, [
+        {
+            key: "setSpeechRecognition",
+            value: function setSpeechRecognition(SpeechRecognition) {
+                var browserSupportsRecogniser = !!SpeechRecognition && ((0, _NativeSpeechRecognition.isNative)(SpeechRecognition) || (0, _utils.browserSupportsPolyfills)());
+                if (browserSupportsRecogniser) {
+                    this.disableRecognition();
+                    this.recognition = new SpeechRecognition();
+                    this.recognition.continuous = false;
+                    this.recognition.interimResults = true;
+                    this.recognition.onresult = this.updateTranscript.bind(this);
+                    this.recognition.onend = this.onRecognitionDisconnect.bind(this);
+                    this.recognition.onerror = this.onError.bind(this);
+                }
+                this.emitBrowserSupportsSpeechRecognitionChange(browserSupportsRecogniser);
+            }
+        },
+        {
+            key: "subscribe",
+            value: function subscribe(id, callbacks) {
+                this.subscribers[id] = callbacks;
+            }
+        },
+        {
+            key: "unsubscribe",
+            value: function unsubscribe(id) {
+                delete this.subscribers[id];
+            }
+        },
+        {
+            key: "emitListeningChange",
+            value: function emitListeningChange(listening) {
+                var _this = this;
+                this.listening = listening;
+                Object.keys(this.subscribers).forEach(function(id) {
+                    var onListeningChange = _this.subscribers[id].onListeningChange;
+                    onListeningChange(listening);
+                });
+            }
+        },
+        {
+            key: "emitMicrophoneAvailabilityChange",
+            value: function emitMicrophoneAvailabilityChange(isMicrophoneAvailable) {
+                var _this2 = this;
+                this.isMicrophoneAvailable = isMicrophoneAvailable;
+                Object.keys(this.subscribers).forEach(function(id) {
+                    var onMicrophoneAvailabilityChange = _this2.subscribers[id].onMicrophoneAvailabilityChange;
+                    onMicrophoneAvailabilityChange(isMicrophoneAvailable);
+                });
+            }
+        },
+        {
+            key: "emitTranscriptChange",
+            value: function emitTranscriptChange(interimTranscript, finalTranscript) {
+                var _this3 = this;
+                Object.keys(this.subscribers).forEach(function(id) {
+                    var onTranscriptChange = _this3.subscribers[id].onTranscriptChange;
+                    onTranscriptChange(interimTranscript, finalTranscript);
+                });
+            }
+        },
+        {
+            key: "emitClearTranscript",
+            value: function emitClearTranscript() {
+                var _this4 = this;
+                Object.keys(this.subscribers).forEach(function(id) {
+                    var onClearTranscript = _this4.subscribers[id].onClearTranscript;
+                    onClearTranscript();
+                });
+            }
+        },
+        {
+            key: "emitBrowserSupportsSpeechRecognitionChange",
+            value: function emitBrowserSupportsSpeechRecognitionChange(browserSupportsSpeechRecognitionChange) {
+                var _this5 = this;
+                Object.keys(this.subscribers).forEach(function(id) {
+                    var _this5$subscribers$id = _this5.subscribers[id], onBrowserSupportsSpeechRecognitionChange = _this5$subscribers$id.onBrowserSupportsSpeechRecognitionChange, onBrowserSupportsContinuousListeningChange = _this5$subscribers$id.onBrowserSupportsContinuousListeningChange;
+                    onBrowserSupportsSpeechRecognitionChange(browserSupportsSpeechRecognitionChange);
+                    onBrowserSupportsContinuousListeningChange(browserSupportsSpeechRecognitionChange);
+                });
+            }
+        },
+        {
+            key: "disconnect",
+            value: function disconnect(disconnectType) {
+                if (this.recognition && this.listening) switch(disconnectType){
+                    case "ABORT":
+                        this.pauseAfterDisconnect = true;
+                        this.abort();
+                        break;
+                    case "RESET":
+                        this.pauseAfterDisconnect = false;
+                        this.abort();
+                        break;
+                    case "STOP":
+                    default:
+                        this.pauseAfterDisconnect = true;
+                        this.stop();
+                }
+            }
+        },
+        {
+            key: "disableRecognition",
+            value: function disableRecognition() {
+                if (this.recognition) {
+                    this.recognition.onresult = function() {};
+                    this.recognition.onend = function() {};
+                    this.recognition.onerror = function() {};
+                    if (this.listening) this.stopListening();
+                }
+            }
+        },
+        {
+            key: "onError",
+            value: function onError(event) {
+                if (event && event.error && event.error === "not-allowed") {
+                    this.emitMicrophoneAvailabilityChange(false);
+                    this.disableRecognition();
+                }
+            }
+        },
+        {
+            key: "onRecognitionDisconnect",
+            value: function onRecognitionDisconnect() {
+                this.onStopListening();
+                this.listening = false;
+                if (this.pauseAfterDisconnect) this.emitListeningChange(false);
+                else if (this.recognition) {
+                    if (this.recognition.continuous) this.startListening({
+                        continuous: this.recognition.continuous
+                    });
+                    else this.emitListeningChange(false);
+                }
+                this.pauseAfterDisconnect = false;
+            }
+        },
+        {
+            key: "updateTranscript",
+            value: function updateTranscript(_ref) {
+                var results = _ref.results, resultIndex = _ref.resultIndex;
+                var currentIndex = resultIndex === undefined ? results.length - 1 : resultIndex;
+                this.interimTranscript = "";
+                this.finalTranscript = "";
+                for(var i = currentIndex; i < results.length; ++i)if (results[i].isFinal && (!(0, _isAndroid["default"])() || results[i][0].confidence > 0)) this.updateFinalTranscript(results[i][0].transcript);
+                else this.interimTranscript = (0, _utils.concatTranscripts)(this.interimTranscript, results[i][0].transcript);
+                var isDuplicateResult = false;
+                if (this.interimTranscript === "" && this.finalTranscript !== "") {
+                    if (this.previousResultWasFinalOnly) isDuplicateResult = true;
+                    this.previousResultWasFinalOnly = true;
+                } else this.previousResultWasFinalOnly = false;
+                if (!isDuplicateResult) this.emitTranscriptChange(this.interimTranscript, this.finalTranscript);
+            }
+        },
+        {
+            key: "updateFinalTranscript",
+            value: function updateFinalTranscript(newFinalTranscript) {
+                this.finalTranscript = (0, _utils.concatTranscripts)(this.finalTranscript, newFinalTranscript);
+            }
+        },
+        {
+            key: "resetTranscript",
+            value: function resetTranscript() {
+                this.disconnect("RESET");
+            }
+        },
+        {
+            key: "startListening",
+            value: function() {
+                var _startListening = _asyncToGenerator(/*#__PURE__*/ regeneratorRuntime.mark(function _callee() {
+                    var _ref2, _ref2$continuous, continuous, language, isContinuousChanged, isLanguageChanged, _args = arguments;
+                    return regeneratorRuntime.wrap(function _callee$(_context) {
+                        while(true)switch(_context.prev = _context.next){
+                            case 0:
+                                _ref2 = _args.length > 0 && _args[0] !== undefined ? _args[0] : {}, _ref2$continuous = _ref2.continuous, continuous = _ref2$continuous === void 0 ? false : _ref2$continuous, language = _ref2.language;
+                                if (this.recognition) {
+                                    _context.next = 3;
+                                    break;
+                                }
+                                return _context.abrupt("return");
+                            case 3:
+                                isContinuousChanged = continuous !== this.recognition.continuous;
+                                isLanguageChanged = language && language !== this.recognition.lang;
+                                if (!(isContinuousChanged || isLanguageChanged)) {
+                                    _context.next = 11;
+                                    break;
+                                }
+                                if (!this.listening) {
+                                    _context.next = 9;
+                                    break;
+                                }
+                                _context.next = 9;
+                                return this.stopListening();
+                            case 9:
+                                this.recognition.continuous = isContinuousChanged ? continuous : this.recognition.continuous;
+                                this.recognition.lang = isLanguageChanged ? language : this.recognition.lang;
+                            case 11:
+                                if (this.listening) {
+                                    _context.next = 22;
+                                    break;
+                                }
+                                if (!this.recognition.continuous) {
+                                    this.resetTranscript();
+                                    this.emitClearTranscript();
+                                }
+                                _context.prev = 13;
+                                _context.next = 16;
+                                return this.start();
+                            case 16:
+                                this.emitListeningChange(true);
+                                _context.next = 22;
+                                break;
+                            case 19:
+                                _context.prev = 19;
+                                _context.t0 = _context["catch"](13);
+                                // DOMExceptions indicate a redundant microphone start - safe to swallow
+                                if (!(_context.t0 instanceof DOMException)) this.emitMicrophoneAvailabilityChange(false);
+                            case 22:
+                            case "end":
+                                return _context.stop();
+                        }
+                    }, _callee, this, [
+                        [
+                            13,
+                            19
+                        ]
+                    ]);
+                }));
+                function startListening() {
+                    return _startListening.apply(this, arguments);
+                }
+                return startListening;
+            }()
+        },
+        {
+            key: "abortListening",
+            value: function() {
+                var _abortListening = _asyncToGenerator(/*#__PURE__*/ regeneratorRuntime.mark(function _callee2() {
+                    var _this6 = this;
+                    return regeneratorRuntime.wrap(function _callee2$(_context2) {
+                        while(true)switch(_context2.prev = _context2.next){
+                            case 0:
+                                this.disconnect("ABORT");
+                                this.emitListeningChange(false);
+                                _context2.next = 4;
+                                return new Promise(function(resolve) {
+                                    _this6.onStopListening = resolve;
+                                });
+                            case 4:
+                            case "end":
+                                return _context2.stop();
+                        }
+                    }, _callee2, this);
+                }));
+                function abortListening() {
+                    return _abortListening.apply(this, arguments);
+                }
+                return abortListening;
+            }()
+        },
+        {
+            key: "stopListening",
+            value: function() {
+                var _stopListening = _asyncToGenerator(/*#__PURE__*/ regeneratorRuntime.mark(function _callee3() {
+                    var _this7 = this;
+                    return regeneratorRuntime.wrap(function _callee3$(_context3) {
+                        while(true)switch(_context3.prev = _context3.next){
+                            case 0:
+                                this.disconnect("STOP");
+                                this.emitListeningChange(false);
+                                _context3.next = 4;
+                                return new Promise(function(resolve) {
+                                    _this7.onStopListening = resolve;
+                                });
+                            case 4:
+                            case "end":
+                                return _context3.stop();
+                        }
+                    }, _callee3, this);
+                }));
+                function stopListening() {
+                    return _stopListening.apply(this, arguments);
+                }
+                return stopListening;
+            }()
+        },
+        {
+            key: "getRecognition",
+            value: function getRecognition() {
+                return this.recognition;
+            }
+        },
+        {
+            key: "start",
+            value: function() {
+                var _start = _asyncToGenerator(/*#__PURE__*/ regeneratorRuntime.mark(function _callee4() {
+                    return regeneratorRuntime.wrap(function _callee4$(_context4) {
+                        while(true)switch(_context4.prev = _context4.next){
+                            case 0:
+                                if (!(this.recognition && !this.listening)) {
+                                    _context4.next = 4;
+                                    break;
+                                }
+                                _context4.next = 3;
+                                return this.recognition.start();
+                            case 3:
+                                this.listening = true;
+                            case 4:
+                            case "end":
+                                return _context4.stop();
+                        }
+                    }, _callee4, this);
+                }));
+                function start() {
+                    return _start.apply(this, arguments);
+                }
+                return start;
+            }()
+        },
+        {
+            key: "stop",
+            value: function stop() {
+                if (this.recognition && this.listening) {
+                    this.recognition.stop();
+                    this.listening = false;
+                }
+            }
+        },
+        {
+            key: "abort",
+            value: function abort() {
+                if (this.recognition && this.listening) {
+                    this.recognition.abort();
+                    this.listening = false;
+                }
+            }
+        }
+    ]);
+    return RecognitionManager1;
+}();
+exports["default"] = RecognitionManager;
+
+},{"./isAndroid":"967Lu","./utils":"e5Xtz","./NativeSpeechRecognition":"5WkEd"}],"967Lu":[function(require,module,exports) {
+"use strict";
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports["default"] = void 0;
+var _default = function _default() {
+    return /(android)/i.test(typeof navigator !== "undefined" ? navigator.userAgent : "");
+};
+exports["default"] = _default;
+
+},{}],"5WkEd":[function(require,module,exports) {
+"use strict";
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports["default"] = exports.isNative = void 0;
+var NativeSpeechRecognition = typeof window !== "undefined" && (window.SpeechRecognition || window.webkitSpeechRecognition || window.mozSpeechRecognition || window.msSpeechRecognition || window.oSpeechRecognition);
+var isNative = function isNative(SpeechRecognition) {
+    return SpeechRecognition === NativeSpeechRecognition;
+};
+exports.isNative = isNative;
+var _default = NativeSpeechRecognition;
+exports["default"] = _default;
+
+},{}],"kQseg":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "TwitchEmbed", ()=>TwitchEmbed);
@@ -36430,6 +37531,98 @@ var TwitchPlayer = function(_Component) {
 TwitchPlayer.propTypes = propTypes$3;
 TwitchPlayer.defaultProps = defaultProps$3;
 
-},{"react":"21dqq","prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["1xC6H","awEvQ","bB7Pu"], "bB7Pu", "parcelRequire3745")
+},{"react":"21dqq","prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"t1a0q":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$7333 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$7333.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactTwitchEmbed = require("react-twitch-embed");
+var _s = $RefreshSig$();
+const StreamsCard = ()=>{
+    _s();
+    const [respons, setResponse] = (0, _react.useState)([
+        {}
+    ]);
+    const [img, setImg] = (0, _react.useState)([
+        {}
+    ]);
+    const url1 = "https://api.twitch.tv/helix/games/top";
+    const fetchParties = (url)=>{
+        const headers = {
+            Authorization: "Bearer j66dvirbretd668on4gxvr643jnqpa",
+            "Client-Id": "lb8o6spujvoj8d88sbcidt49yjp5gj"
+        };
+        fetch(url, {
+            headers
+        }).then((response)=>response.json()).then((data)=>{
+            let tempList = data.data;
+            setResponse(data.data);
+            console.log(tempList);
+            setImg(tempList.map((rep)=>rep.box_art_url.replace("{width}", "300").replace("{height}", "300")));
+        // console.log(data.data)
+        }).catch((err)=>console.log(err));
+    };
+    (0, _react.useEffect)(()=>{
+        fetchParties(url1);
+    }, []);
+    console.log(respons);
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: [
+            "regarde la console fdp",
+            " ",
+            respons.map((rep)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                    children: rep.name
+                }, void 0, false, {
+                    fileName: "components/StreamsCard.js",
+                    lineNumber: 44,
+                    columnNumber: 9
+                }, undefined)),
+            img.map((rep)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                    src: rep
+                }, void 0, false, {
+                    fileName: "components/StreamsCard.js",
+                    lineNumber: 47,
+                    columnNumber: 9
+                }, undefined)),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactTwitchEmbed.TwitchPlayer), {
+                    channel: "smoke",
+                    height: "300",
+                    width: "300"
+                }, void 0, false, {
+                    fileName: "components/StreamsCard.js",
+                    lineNumber: 58,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "components/StreamsCard.js",
+                lineNumber: 49,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "components/StreamsCard.js",
+        lineNumber: 41,
+        columnNumber: 5
+    }, undefined);
+};
+_s(StreamsCard, "zrge66Z7Hbe2q4HD6j3dQ44erTs=");
+_c = StreamsCard;
+exports.default = StreamsCard;
+var _c;
+$RefreshReg$(_c, "StreamsCard");
+
+  $parcel$ReactRefreshHelpers$7333.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-twitch-embed":"kQseg","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["1xC6H","awEvQ","bB7Pu"], "bB7Pu", "parcelRequire3745")
 
 //# sourceMappingURL=index.3d214d75.js.map

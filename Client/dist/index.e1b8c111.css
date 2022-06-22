@@ -476,6 +476,18 @@ input:focus {
   margin-left: 4px;
 }
 
+.vidéoBase {
+  width: 100%;
+}
+
+.app_player {
+  width: 65%;
+  height: 55%;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+
 .app_navbar {
   height: 83px;
   width: 1902px;
@@ -987,6 +999,18 @@ input:focus {
   height: 169px;
   width: 65px;
   margin-left: 1px;
+}
+
+.Tchat {
+  display: block;
+}
+
+.activeTchat, .TchatContent {
+  display: none;
+}
+
+.activeTchatContent {
+  display: block;
 }
 
 /*# sourceMappingURL=index.e1b8c111.css.map */
