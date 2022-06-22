@@ -10,6 +10,8 @@ import {
   TwitchClip,
   TwitchPlayer,
 } from "react-twitch-embed";
+import Tchat from "./components/tchat";
+// import RecordVoice from "./components/voiceRecorder";
 
 function App() {
   return (
@@ -78,6 +80,7 @@ function App() {
             </div>
           </div>
         </Route>
+
         <Route path="/mobile">
           <Mobile {...mobileData} />
         </Route>

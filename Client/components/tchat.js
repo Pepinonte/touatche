@@ -1,9 +1,20 @@
 import React, { useState } from "react";
 import io from "socket.io-client";
+import "../styles/tchat.css";
+import SpeechRecognition, {
+  useSpeechRecognition,
+} from "react-speech-recognition";
 
 function Tchat() {
   const [messages, setMessages] = useState([]);
   const socket = io("localhost:3001");
+  const [toggleTchat, setToggleTchat] = useState(1);
+
+  const toggleTchatV = (index) => {
+    setToggleTchat(index);
+  };
+
+  const { transcript, listening, resetTranscript } = useSpeechRecognition();
 
   socket.on("SERVER_MSG", (msg) => {
     setNewMessage(msg);
@@ -17,11 +28,29 @@ function Tchat() {
     e.preventDefault();
     const msg = {
       username: e.target.username.value,
-      text: e.target.text.value,
+      text: e.target.text.value
     };
     socket.emit("CLIENT_MSG", msg);
     setNewMessage(msg);
+    // e.target.user.value = { transcript };
   }
+  function sendMessageVocal(e) {
+    e.preventDefault();
+    const msg = {
+      username: e.target.username.value,
+      text: e.target.vocal.value
+    };
+    socket.emit("CLIENT_MSG", msg);
+    setNewMessage(msg);
+    // e.target.user.value = { transcript };
+  }
+
+
+  // function sendAll(e){
+  //   sendMessage(e);
+  //   console.log();
+  //   setNewMessage(transcript);
+  // }
 
   return (
     <div>
@@ -37,26 +66,83 @@ function Tchat() {
             })}
           </div>
           <div className="app_tchat-edition">
-            <form onSubmit={(e) => sendMessage(e)}>
+            <form onSubmit={toggleTchat === 2 ? (e) => sendMessageVocal(e) : (e) => sendMessage(e)}>
               <div className="app_tchatbar">
                 <input
                   id="username"
                   type="text"
-                  placeholder="Username"
+                  placeholder="Votre pseudonyme"
                   className="form-control"
+                  required
                 />
                 <br />
                 <input
                   id="text"
                   type="text"
-                  placeholder="Your message"
-                  className="form-control"
-                />
+                  placeholder="Entrez votre message"
+                  className={
+                    toggleTchat === 1
+                      ? "TchatContent activeTchatContent"
+                      : "TchatContent"
+                  }
+                  
+                ></input>
+                <input
+                  id="vocal"
+                  type="text"
+                  value={transcript}
+                  placeholder="Entrez votre message"
+                  className={
+                    toggleTchat === 2
+                      ? "TchatContent activeTchatContent"
+                      : "TchatContent"
+                  }
+                  
+                ></input>
                 <button type="submit">envoyer</button>
-                {/* zfzfez */}
               </div>
-              
             </form>
+            <button
+              className={toggleTchat === 1 ? "Tchat activeTchat" : "Tchat"}
+              onClick={() => {
+                toggleTchatV(1);
+              }}
+              data-anim="1"
+              
+            >
+              Text
+            </button>
+
+            <button
+              className={toggleTchat === 2 ? "Tchat activeTchat" : "Tchat"}
+              onClick={() => {
+                toggleTchatV(2);
+              }}
+              data-anim="2"
+              
+            >
+              Vocal
+            </button>
+            <button
+              className={
+                toggleTchat === 2
+                  ? "TchatContent activeTchatContent"
+                  : "TchatContent"
+              }
+              onClick={SpeechRecognition.startListening}
+            >
+              Start
+            </button>
+            <button
+              className={
+                toggleTchat === 2
+                  ? "TchatContent activeTchatContent"
+                  : "TchatContent"
+              }
+              onClick={resetTranscript}
+            >
+              Reset
+            </button>
           </div>
         </div>
       </div>
