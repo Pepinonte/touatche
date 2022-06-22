@@ -4,6 +4,7 @@ import { Switch, BrowserRouter as Router, Route } from "react-router-dom";
 import AppNavbar from "./components/AppNavbar";
 import Mobile from "./components/Mobile";
 import Tchat from "./components/tchat";
+import StreamsCard from "./components/StreamsCard";
 import {
   TwitchEmbed,
   TwitchChat,
@@ -26,21 +27,25 @@ function App() {
               </div>
               <div className="app_categ inter-normal-black-32px">
                 <div className="app_categ-1">
-                  <h1 className="title">Sport</h1>
+                  <a href="http://localhost:1234/StreamsCard">Sport</a>
                   <img
                     className="sport_ballon-1"
                     src="/img/sport-ballon@2x.png"
                   />
                 </div>
                 <div className="app_categ-2">
-                  <div className="musique-1">Musique</div>
+                  <div className="musique-1">
+                    <a href="http://localhost:1234/StreamsCard">Musique</a>
+                  </div>
                   <img
                     className="microphone_png7930-1"
                     src="/img/microphone-png7930-1-1@2x.png"
                   />
                 </div>
                 <div className="app_categ-3">
-                  <div className="thatre-1">Théatre</div>
+                  <div className="thatre-1">
+                    <a href="http://localhost:1234/StreamsCard">Théatre</a>
+                  </div>
                   <img
                     className="thatre_masque-1"
                     src="/img/th-atre-masque@2x.png"
@@ -48,7 +53,9 @@ function App() {
                 </div>
                 <div className="onglet-danse">
                   <div className="app_categ-4">
-                    <div className="danse-1 inter-normal-black-32px">Danse</div>
+                    <div className="danse-1 inter-normal-black-32px">
+                      <a href="http://localhost:1234/StreamsCard">Dance</a>
+                    </div>
                     <img
                       className="danse_danseuse-1"
                       src="/img/danse-danseuse@2x.png"
@@ -57,7 +64,9 @@ function App() {
                 </div>
                 <div className="onglet-irl">
                   <div className="app_categ-5">
-                    <div className="irl-1 inter-normal-black-32px">IRL</div>
+                    <div className="irl-1 inter-normal-black-32px">
+                      <a href="http://localhost:1234/StreamsCard">IRL</a>
+                    </div>
                     <img
                       className="icon-camera-1"
                       src="/img/image-2-1@2x.png"
@@ -67,31 +76,27 @@ function App() {
               </div>
               <div className="app_-container">
                 <div className="app_player">
-                
-                  <TwitchPlayer
-                    className="vidéoBase"
-                    channel="smoke"
-                 
-                  />
-                  </div>
-                  <div className="app_soudage">
-                    <div className="sondage-1 inter-normal-black-32px">
-                      Sondage :
-                    </div>
-                    <div className="overlap-group-5">
-                      <div className="envoyer-2">Envoyer</div>
-                    </div>
-                  </div>
-                  <Tchat />
-                
+                  <TwitchPlayer className="vidéoBase" channel="smoke" />
                 </div>
+                <div className="app_soudage">
+                  <div className="sondage-1 inter-normal-black-32px">
+                    Sondage :
+                  </div>
+                  <div className="overlap-group-5">
+                    <div className="envoyer-2">Envoyer</div>
+                  </div>
+                </div>
+                <Tchat />
               </div>
-            
+            </div>
           </div>
         </Route>
 
         <Route path="/mobile">
           <Mobile {...mobileData} />
+        </Route>
+        <Route path="/StreamsCard">
+          <StreamsCard />
         </Route>
       </Switch>
     </Router>
