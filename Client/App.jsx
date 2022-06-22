@@ -65,19 +65,28 @@ function App() {
                   </div>
                 </div>
               </div>
-              <TwitchPlayer channel="smoke" height="300" width="300" />
               <div className="app_-container">
-                <div className="app_soudage">
-                  <div className="sondage-1 inter-normal-black-32px">
-                    Sondage :
+                <div className="app_player">
+                
+                  <TwitchPlayer
+                    className="vidéoBase"
+                    channel="smoke"
+                 
+                  />
                   </div>
-                  <div className="overlap-group-5">
-                    <div className="envoyer-2">Envoyer</div>
+                  <div className="app_soudage">
+                    <div className="sondage-1 inter-normal-black-32px">
+                      Sondage :
+                    </div>
+                    <div className="overlap-group-5">
+                      <div className="envoyer-2">Envoyer</div>
+                    </div>
                   </div>
+                  <Tchat />
+                
                 </div>
-                <Tchat />
               </div>
-            </div>
+            
           </div>
         </Route>
 

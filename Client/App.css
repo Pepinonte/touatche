@@ -384,3 +384,18 @@
   width: 76px;
 }
 
+
+.vidéoBase{
+  width : 100%;
+}
+
+.app_player{
+  top: 20%;
+  
+  position: absolute;
+  width : 65%;
+  height : 55%;
+  left : 10%;
+
+}
+
