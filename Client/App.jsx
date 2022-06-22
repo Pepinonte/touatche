@@ -5,6 +5,7 @@ import AppNavbar from "./components/AppNavbar";
 import Mobile from "./components/Mobile";
 import Tchat from "./components/tchat";
 import StreamsCard from "./components/StreamsCard";
+import Sondage from "./components/testNico"
 import {
   TwitchEmbed,
   TwitchChat,
@@ -79,8 +80,9 @@ function App() {
                   <TwitchPlayer className="vidéoBase" channel="smoke" />
                 </div>
                 <div className="app_soudage">
+                  
                   <div className="sondage-1 inter-normal-black-32px">
-                    Sondage :
+                    Sondage : <Sondage/>
                   </div>
                   <div className="overlap-group-5">
                     <div className="envoyer-2">Envoyer</div>
