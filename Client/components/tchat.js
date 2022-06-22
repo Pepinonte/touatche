@@ -66,7 +66,7 @@ function Tchat() {
             })}
           </div>
           <div className="app_tchat-edition">
-            <form onSubmit={toggleTchat === 2 ? (e) => sendMessageVocal(e) : (e) => sendMessage(e)}>
+            <form className="formTchat" onSubmit={toggleTchat === 2 ? (e) => sendMessageVocal(e) : (e) => sendMessage(e)}>
               <div className="app_tchatbar">
                 <input
                   id="username"
@@ -132,16 +132,6 @@ function Tchat() {
               onClick={SpeechRecognition.startListening}
             >
               Start
-            </button>
-            <button
-              className={
-                toggleTchat === 2
-                  ? "TchatContent activeTchatContent"
-                  : "TchatContent"
-              }
-              onClick={resetTranscript}
-            >
-              Reset
             </button>
           </div>
         </div>

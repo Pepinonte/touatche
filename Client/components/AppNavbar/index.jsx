@@ -10,10 +10,10 @@
         <div className="overlap-group">
           <div className="app_navbar-login">
             <div className="app_navbar-connexion">
-              <div className="connexion inter-normal-black-28px">Connexion</div>
+              <div className="connexion inter-normal-black-28px"> <a href="http://localhost:1234/Connexion">Connexion</a></div>
             </div>
             <div className="app_navbar-inscription">
-              <div className="sinscrire inter-normal-black-30px">S’inscrire</div>
+              <div className="sinscrire inter-normal-black-30px"> <a href="http://localhost:1234/Inscription">Inscription</a></div>
             </div>
           </div>
           <img className="slogan_-touatche-1" src="/img/slogan-touatche-1@1x.png" />
