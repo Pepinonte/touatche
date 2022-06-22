@@ -1,5 +1,5 @@
 import React from "react";
-import StreamsCard from "./components/StreamsCard";
+import StreamsCard from "../components/StreamsCard";
 
 const Sport = () => {
   return (
