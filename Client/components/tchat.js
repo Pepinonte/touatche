@@ -28,7 +28,7 @@ function Tchat() {
     e.preventDefault();
     const msg = {
       username: e.target.username.value,
-      text: e.target.text.value
+      text: e.target.text.value,
     };
     socket.emit("CLIENT_MSG", msg);
     setNewMessage(msg);
@@ -38,13 +38,12 @@ function Tchat() {
     e.preventDefault();
     const msg = {
       username: e.target.username.value,
-      text: e.target.vocal.value
+      text: e.target.vocal.value,
     };
     socket.emit("CLIENT_MSG", msg);
     setNewMessage(msg);
     // e.target.user.value = { transcript };
   }
-
 
   // function sendAll(e){
   //   sendMessage(e);
@@ -66,13 +65,21 @@ function Tchat() {
             })}
           </div>
           <div className="app_tchat-edition">
-            <form className="formTchat" onSubmit={toggleTchat === 2 ? (e) => sendMessageVocal(e) : (e) => sendMessage(e)}>
+            <form
+              className="formTchat"
+              onSubmit={
+                toggleTchat === 2
+                  ? (e) => sendMessageVocal(e)
+                  : (e) => sendMessage(e)
+              }
+            >
               <div className="app_tchatbar">
                 <input
                   id="username"
                   type="text"
                   placeholder="Votre pseudonyme"
                   className="form-control"
+                  value={localStorage.getItem("nom")}
                   required
                 />
                 <br />
@@ -85,7 +92,6 @@ function Tchat() {
                       ? "TchatContent activeTchatContent"
                       : "TchatContent"
                   }
-                  
                 ></input>
                 <input
                   id="vocal"
@@ -97,7 +103,6 @@ function Tchat() {
                       ? "TchatContent activeTchatContent"
                       : "TchatContent"
                   }
-                  
                 ></input>
                 <button type="submit">envoyer</button>
               </div>
@@ -108,7 +113,6 @@ function Tchat() {
                 toggleTchatV(1);
               }}
               data-anim="1"
-              
             >
               Text
             </button>
@@ -119,7 +123,6 @@ function Tchat() {
                 toggleTchatV(2);
               }}
               data-anim="2"
-              
             >
               Vocal
             </button>

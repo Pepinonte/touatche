@@ -8,6 +8,7 @@ function Connexion() {
 
   const handleChange = (e) => {
     setName(e.target.value);
+    localStorage.setItem("nom", name);
   };
   const handlePasswordChange = (e) => {
     setPassword(e.target.value);

@@ -13,6 +13,7 @@ function Inscription() {
   // value enter by user in form
   const handleChange = (e) => {
     setName(e.target.value);
+    localStorage.setItem("nom", name);
   };
   // function to update state of age with value
   // enter by user in form
