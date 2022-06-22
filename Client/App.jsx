@@ -96,7 +96,7 @@ function App() {
           <Mobile {...mobileData} />
         </Route>
         <Route path="/StreamsCard">
-          <StreamsCard />
+          <StreamsCard channelName={"gonni"} width={"800px"} height={"800px"} />
         </Route>
       </Switch>
     </Router>
