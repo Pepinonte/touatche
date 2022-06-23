@@ -27074,7 +27074,27 @@ var _tchat = require("./components/tchat");
 var _tchatDefault = parcelHelpers.interopDefault(_tchat);
 var _streamsCard = require("./components/StreamsCard");
 var _streamsCardDefault = parcelHelpers.interopDefault(_streamsCard);
+var _testNico = require("./components/testNico");
+var _testNicoDefault = parcelHelpers.interopDefault(_testNico);
+var _danse = require("./pages/Danse");
+var _danseDefault = parcelHelpers.interopDefault(_danse);
+var _irl = require("./pages/Irl");
+var _irlDefault = parcelHelpers.interopDefault(_irl);
+var _musique = require("./pages/Musique");
+var _musiqueDefault = parcelHelpers.interopDefault(_musique);
+var _sport = require("./pages/Sport");
+var _sportDefault = parcelHelpers.interopDefault(_sport);
+var _theatre = require("./pages/Theatre");
+var _theatreDefault = parcelHelpers.interopDefault(_theatre);
+var _connexion = require("./components/Connexion");
+var _connexionDefault = parcelHelpers.interopDefault(_connexion);
+var _onglet = require("./components/onglet");
+var _ongletDefault = parcelHelpers.interopDefault(_onglet);
+var _inscription = require("./components/Inscription");
+var _inscriptionDefault = parcelHelpers.interopDefault(_inscription);
 var _reactTwitchEmbed = require("react-twitch-embed");
+var _ongletTchat = require("./components/OngletTchat");
+var _ongletTchatDefault = parcelHelpers.interopDefault(_ongletTchat);
 // import RecordVoice from "./components/voiceRecorder";
 function App() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.BrowserRouter), {
@@ -27092,194 +27112,23 @@ function App() {
                                     children: [
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _appNavbarDefault.default), {}, void 0, false, {
                                             fileName: "App.jsx",
-                                            lineNumber: 25,
+                                            lineNumber: 35,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _appNavbarDefault.default), {}, void 0, false, {
                                             fileName: "App.jsx",
-                                            lineNumber: 26,
-                                            columnNumber: 17
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "App.jsx",
-                                    lineNumber: 24,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "app_categ inter-normal-black-32px",
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "app_categ-1",
-                                            children: [
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                    href: "http://localhost:1234/StreamsCard",
-                                                    children: "Sport"
-                                                }, void 0, false, {
-                                                    fileName: "App.jsx",
-                                                    lineNumber: 30,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                                    className: "sport_ballon-1",
-                                                    src: "/img/sport-ballon@2x.png"
-                                                }, void 0, false, {
-                                                    fileName: "App.jsx",
-                                                    lineNumber: 31,
-                                                    columnNumber: 19
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "App.jsx",
-                                            lineNumber: 29,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "app_categ-2",
-                                            children: [
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "musique-1",
-                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                        href: "http://localhost:1234/StreamsCard",
-                                                        children: "Musique"
-                                                    }, void 0, false, {
-                                                        fileName: "App.jsx",
-                                                        lineNumber: 38,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "App.jsx",
-                                                    lineNumber: 37,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                                    className: "microphone_png7930-1",
-                                                    src: "/img/microphone-png7930-1-1@2x.png"
-                                                }, void 0, false, {
-                                                    fileName: "App.jsx",
-                                                    lineNumber: 40,
-                                                    columnNumber: 19
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "App.jsx",
                                             lineNumber: 36,
                                             columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "app_categ-3",
-                                            children: [
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "thatre-1",
-                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                        href: "http://localhost:1234/StreamsCard",
-                                                        children: "Th\xe9atre"
-                                                    }, void 0, false, {
-                                                        fileName: "App.jsx",
-                                                        lineNumber: 47,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "App.jsx",
-                                                    lineNumber: 46,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                                    className: "thatre_masque-1",
-                                                    src: "/img/th-atre-masque@2x.png"
-                                                }, void 0, false, {
-                                                    fileName: "App.jsx",
-                                                    lineNumber: 49,
-                                                    columnNumber: 19
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "App.jsx",
-                                            lineNumber: 45,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "onglet-danse",
-                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                className: "app_categ-4",
-                                                children: [
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                        className: "danse-1 inter-normal-black-32px",
-                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                            href: "http://localhost:1234/StreamsCard",
-                                                            children: "Dance"
-                                                        }, void 0, false, {
-                                                            fileName: "App.jsx",
-                                                            lineNumber: 57,
-                                                            columnNumber: 23
-                                                        }, this)
-                                                    }, void 0, false, {
-                                                        fileName: "App.jsx",
-                                                        lineNumber: 56,
-                                                        columnNumber: 21
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                                        className: "danse_danseuse-1",
-                                                        src: "/img/danse-danseuse@2x.png"
-                                                    }, void 0, false, {
-                                                        fileName: "App.jsx",
-                                                        lineNumber: 59,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "App.jsx",
-                                                lineNumber: 55,
-                                                columnNumber: 19
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "App.jsx",
-                                            lineNumber: 54,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "onglet-irl",
-                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                className: "app_categ-5",
-                                                children: [
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                        className: "irl-1 inter-normal-black-32px",
-                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                            href: "http://localhost:1234/StreamsCard",
-                                                            children: "IRL"
-                                                        }, void 0, false, {
-                                                            fileName: "App.jsx",
-                                                            lineNumber: 68,
-                                                            columnNumber: 23
-                                                        }, this)
-                                                    }, void 0, false, {
-                                                        fileName: "App.jsx",
-                                                        lineNumber: 67,
-                                                        columnNumber: 21
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                                        className: "icon-camera-1",
-                                                        src: "/img/image-2-1@2x.png"
-                                                    }, void 0, false, {
-                                                        fileName: "App.jsx",
-                                                        lineNumber: 70,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "App.jsx",
-                                                lineNumber: 66,
-                                                columnNumber: 19
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "App.jsx",
-                                            lineNumber: 65,
-                                            columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "App.jsx",
-                                    lineNumber: 28,
+                                    lineNumber: 34,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _ongletDefault.default), {}, void 0, false, {
+                                    fileName: "App.jsx",
+                                    lineNumber: 38,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27289,15 +27138,15 @@ function App() {
                                             className: "app_player",
                                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactTwitchEmbed.TwitchPlayer), {
                                                 className: "vid\xe9oBase",
-                                                channel: "smoke"
+                                                channel: "gonni"
                                             }, void 0, false, {
                                                 fileName: "App.jsx",
-                                                lineNumber: 79,
+                                                lineNumber: 41,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "App.jsx",
-                                            lineNumber: 78,
+                                            lineNumber: 40,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27305,10 +27154,17 @@ function App() {
                                             children: [
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                     className: "sondage-1 inter-normal-black-32px",
-                                                    children: "Sondage :"
-                                                }, void 0, false, {
+                                                    children: [
+                                                        "Sondage : ",
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _testNicoDefault.default), {}, void 0, false, {
+                                                            fileName: "App.jsx",
+                                                            lineNumber: 45,
+                                                            columnNumber: 31
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
                                                     fileName: "App.jsx",
-                                                    lineNumber: 82,
+                                                    lineNumber: 44,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27318,45 +27174,52 @@ function App() {
                                                         children: "Envoyer"
                                                     }, void 0, false, {
                                                         fileName: "App.jsx",
-                                                        lineNumber: 86,
+                                                        lineNumber: 48,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "App.jsx",
-                                                    lineNumber: 85,
+                                                    lineNumber: 47,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "App.jsx",
-                                            lineNumber: 81,
+                                            lineNumber: 43,
                                             columnNumber: 17
                                         }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _tchatDefault.default), {}, void 0, false, {
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "app-tchat",
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _ongletTchatDefault.default), {}, void 0, false, {
+                                                fileName: "App.jsx",
+                                                lineNumber: 52,
+                                                columnNumber: 19
+                                            }, this)
+                                        }, void 0, false, {
                                             fileName: "App.jsx",
-                                            lineNumber: 89,
+                                            lineNumber: 51,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "App.jsx",
-                                    lineNumber: 77,
+                                    lineNumber: 39,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "App.jsx",
-                            lineNumber: 23,
+                            lineNumber: 33,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "App.jsx",
-                        lineNumber: 22,
+                        lineNumber: 32,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "App.jsx",
-                    lineNumber: 21,
+                    lineNumber: 31,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
@@ -27365,35 +27228,143 @@ function App() {
                         ...mobileData
                     }, void 0, false, {
                         fileName: "App.jsx",
-                        lineNumber: 96,
+                        lineNumber: 60,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "App.jsx",
-                    lineNumber: 95,
+                    lineNumber: 59,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
                     path: "/StreamsCard",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _streamsCardDefault.default), {}, void 0, false, {
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _streamsCardDefault.default), {
+                        channelName: "gonni",
+                        width: "800px",
+                        height: "800px"
+                    }, void 0, false, {
                         fileName: "App.jsx",
-                        lineNumber: 99,
+                        lineNumber: 63,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "App.jsx",
-                    lineNumber: 98,
+                    lineNumber: 62,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                    path: "/Sport",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _sportDefault.default), {
+                        channelName: "gonni",
+                        width: "800px",
+                        height: "800px"
+                    }, void 0, false, {
+                        fileName: "App.jsx",
+                        lineNumber: 67,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "App.jsx",
+                    lineNumber: 66,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                    path: "/Danse",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _danseDefault.default), {
+                        channelName: "gonni",
+                        width: "800px",
+                        height: "800px"
+                    }, void 0, false, {
+                        fileName: "App.jsx",
+                        lineNumber: 71,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "App.jsx",
+                    lineNumber: 70,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                    path: "/Theatre",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _theatreDefault.default), {
+                        channelName: "gonni",
+                        width: "800px",
+                        height: "800px"
+                    }, void 0, false, {
+                        fileName: "App.jsx",
+                        lineNumber: 75,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "App.jsx",
+                    lineNumber: 74,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                    path: "/Irl",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _irlDefault.default), {
+                        channelName: "gonni",
+                        width: "800px",
+                        height: "800px"
+                    }, void 0, false, {
+                        fileName: "App.jsx",
+                        lineNumber: 78,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "App.jsx",
+                    lineNumber: 77,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                    path: "/Musique",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _musiqueDefault.default), {
+                        channelName: "gonni",
+                        width: "800px",
+                        height: "800px"
+                    }, void 0, false, {
+                        fileName: "App.jsx",
+                        lineNumber: 81,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "App.jsx",
+                    lineNumber: 80,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                    path: "/Connexion",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _connexionDefault.default), {}, void 0, false, {
+                        fileName: "App.jsx",
+                        lineNumber: 85,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "App.jsx",
+                    lineNumber: 84,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                    path: "/Inscription",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _inscriptionDefault.default), {}, void 0, false, {
+                        fileName: "App.jsx",
+                        lineNumber: 89,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "App.jsx",
+                    lineNumber: 88,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "App.jsx",
-            lineNumber: 20,
+            lineNumber: 30,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "App.jsx",
-        lineNumber: 19,
+        lineNumber: 29,
         columnNumber: 5
     }, this);
 }
@@ -27440,7 +27411,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","./App.css":"7g3a6","react":"21dqq","react-router-dom":"cHIiW","./components/AppNavbar":"8pulk","./components/Mobile":"70A5n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/tchat":"3eDIh","react-twitch-embed":"kQseg","./components/StreamsCard":"t1a0q"}],"7g3a6":[function() {},{}],"cHIiW":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","./App.css":"7g3a6","react":"21dqq","react-router-dom":"cHIiW","./components/AppNavbar":"8pulk","./components/Mobile":"70A5n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/tchat":"3eDIh","react-twitch-embed":"kQseg","./components/StreamsCard":"t1a0q","./components/testNico":"hBNT9","./pages/Danse":"8eBY8","./pages/Irl":"3gJSK","./pages/Musique":"aOxTj","./pages/Sport":"VFXwy","./pages/Theatre":"6OPwP","./components/Connexion":"lGSiI","./components/onglet":"gx6oT","./components/Inscription":"6V2VG","./components/OngletTchat":"5FjFJ"}],"7g3a6":[function() {},{}],"cHIiW":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "MemoryRouter", ()=>(0, _reactRouter.MemoryRouter));
@@ -30519,8 +30490,18 @@ function AppNavbar() {
                                 className: "app_navbar-connexion",
                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                     className: "connexion inter-normal-black-28px",
-                                    children: "Connexion"
-                                }, void 0, false, {
+                                    children: [
+                                        " ",
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                            href: "http://localhost:1234/Connexion",
+                                            children: "Connexion"
+                                        }, void 0, false, {
+                                            fileName: "components/AppNavbar/index.jsx",
+                                            lineNumber: 13,
+                                            columnNumber: 67
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
                                     fileName: "components/AppNavbar/index.jsx",
                                     lineNumber: 13,
                                     columnNumber: 15
@@ -30534,8 +30515,18 @@ function AppNavbar() {
                                 className: "app_navbar-inscription",
                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                     className: "sinscrire inter-normal-black-30px",
-                                    children: "S\u2019inscrire"
-                                }, void 0, false, {
+                                    children: [
+                                        " ",
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                            href: "http://localhost:1234/Inscription",
+                                            children: "Inscription"
+                                        }, void 0, false, {
+                                            fileName: "components/AppNavbar/index.jsx",
+                                            lineNumber: 16,
+                                            columnNumber: 67
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
                                     fileName: "components/AppNavbar/index.jsx",
                                     lineNumber: 16,
                                     columnNumber: 15
@@ -31216,6 +31207,7 @@ function Tchat() {
             text: e.target.text.value
         };
         socket.emit("CLIENT_MSG", msg);
+        console.log(msg);
         setNewMessage(msg);
     // e.target.user.value = { transcript };
     }
@@ -31226,6 +31218,7 @@ function Tchat() {
             text: e.target.vocal.value
         };
         socket.emit("CLIENT_MSG", msg);
+        console.log(msg);
         setNewMessage(msg);
     // e.target.user.value = { transcript };
     }
@@ -31236,156 +31229,143 @@ function Tchat() {
     // }
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "app_tchat border-1px-black",
-            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "app_tchat-container",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "app_tchat-historique inter-normal-black-20px",
-                        children: messages.map((msg)=>{
-                            return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "app_tchat-container",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "app_tchat-historique inter-normal-black-20px",
+                    children: messages.map((msg)=>{
+                        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            children: [
+                                msg.username,
+                                ": ",
+                                msg.text
+                            ]
+                        }, true, true, {
+                            fileName: "components/tchat.js",
+                            lineNumber: 67,
+                            columnNumber: 15
+                        }, this);
+                    })
+                }, void 0, false, {
+                    fileName: "components/tchat.js",
+                    lineNumber: 64,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "app_tchat-edition",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
+                            className: "formLeTchat",
+                            onSubmit: toggleTchat === 2 ? (e)=>sendMessageVocal(e) : (e)=>sendMessage(e),
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "app_tchatbar",
                                 children: [
-                                    msg.username,
-                                    ": ",
-                                    msg.text
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                        id: "username",
+                                        type: "text",
+                                        placeholder: "Votre pseudonyme",
+                                        className: "form-control",
+                                        value: localStorage.getItem("nom"),
+                                        required: true
+                                    }, void 0, false, {
+                                        fileName: "components/tchat.js",
+                                        lineNumber: 83,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                        fileName: "components/tchat.js",
+                                        lineNumber: 91,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                        id: "text",
+                                        type: "text",
+                                        placeholder: "Entrez votre message",
+                                        className: toggleTchat === 1 ? "TchatContent activeTchatContent" : "TchatContent"
+                                    }, void 0, false, {
+                                        fileName: "components/tchat.js",
+                                        lineNumber: 92,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                        id: "vocal",
+                                        type: "text",
+                                        value: transcript,
+                                        placeholder: "Entrez votre message",
+                                        className: toggleTchat === 2 ? "TchatContent activeTchatContent" : "TchatContent"
+                                    }, void 0, false, {
+                                        fileName: "components/tchat.js",
+                                        lineNumber: 102,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                        type: "submit",
+                                        className: "envoyerMessage",
+                                        value: "Envoyer"
+                                    }, void 0, false, {
+                                        fileName: "components/tchat.js",
+                                        lineNumber: 113,
+                                        columnNumber: 15
+                                    }, this)
                                 ]
-                            }, true, true, {
+                            }, void 0, true, {
                                 fileName: "components/tchat.js",
-                                lineNumber: 62,
-                                columnNumber: 17
-                            }, this);
-                        })
-                    }, void 0, false, {
-                        fileName: "components/tchat.js",
-                        lineNumber: 59,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "app_tchat-edition",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
-                                onSubmit: toggleTchat === 2 ? (e)=>sendMessageVocal(e) : (e)=>sendMessage(e),
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "app_tchatbar",
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                                            id: "username",
-                                            type: "text",
-                                            placeholder: "Votre pseudonyme",
-                                            className: "form-control",
-                                            required: true
-                                        }, void 0, false, {
-                                            fileName: "components/tchat.js",
-                                            lineNumber: 71,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                                            fileName: "components/tchat.js",
-                                            lineNumber: 78,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                                            id: "text",
-                                            type: "text",
-                                            placeholder: "Entrez votre message",
-                                            className: toggleTchat === 1 ? "TchatContent activeTchatContent" : "TchatContent"
-                                        }, void 0, false, {
-                                            fileName: "components/tchat.js",
-                                            lineNumber: 79,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                                            id: "vocal",
-                                            type: "text",
-                                            value: transcript,
-                                            placeholder: "Entrez votre message",
-                                            className: toggleTchat === 2 ? "TchatContent activeTchatContent" : "TchatContent"
-                                        }, void 0, false, {
-                                            fileName: "components/tchat.js",
-                                            lineNumber: 90,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                            type: "submit",
-                                            children: "envoyer"
-                                        }, void 0, false, {
-                                            fileName: "components/tchat.js",
-                                            lineNumber: 102,
-                                            columnNumber: 17
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "components/tchat.js",
-                                    lineNumber: 70,
-                                    columnNumber: 15
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "components/tchat.js",
-                                lineNumber: 69,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                className: toggleTchat === 1 ? "Tchat activeTchat" : "Tchat",
-                                onClick: ()=>{
-                                    toggleTchatV(1);
-                                },
-                                "data-anim": "1",
-                                children: "Text"
-                            }, void 0, false, {
-                                fileName: "components/tchat.js",
-                                lineNumber: 105,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                className: toggleTchat === 2 ? "Tchat activeTchat" : "Tchat",
-                                onClick: ()=>{
-                                    toggleTchatV(2);
-                                },
-                                "data-anim": "2",
-                                children: "Vocal"
-                            }, void 0, false, {
-                                fileName: "components/tchat.js",
-                                lineNumber: 116,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                className: toggleTchat === 2 ? "TchatContent activeTchatContent" : "TchatContent",
-                                onClick: (0, _reactSpeechRecognitionDefault.default).startListening,
-                                children: "Start"
-                            }, void 0, false, {
-                                fileName: "components/tchat.js",
-                                lineNumber: 126,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                className: toggleTchat === 2 ? "TchatContent activeTchatContent" : "TchatContent",
-                                onClick: resetTranscript,
-                                children: "Reset"
-                            }, void 0, false, {
-                                fileName: "components/tchat.js",
-                                lineNumber: 136,
+                                lineNumber: 82,
                                 columnNumber: 13
                             }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "components/tchat.js",
-                        lineNumber: 68,
-                        columnNumber: 11
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "components/tchat.js",
-                lineNumber: 58,
-                columnNumber: 9
-            }, this)
-        }, void 0, false, {
+                        }, void 0, false, {
+                            fileName: "components/tchat.js",
+                            lineNumber: 74,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                            className: toggleTchat === 1 ? "Tchat activeTchat" : "Tchat",
+                            onClick: ()=>{
+                                toggleTchatV(1);
+                            },
+                            "data-anim": "1",
+                            children: "Texte"
+                        }, void 0, false, {
+                            fileName: "components/tchat.js",
+                            lineNumber: 120,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                            className: toggleTchat === 2 ? "Tchat activeTchat" : "Tchat",
+                            onClick: ()=>{
+                                toggleTchatV(2);
+                            },
+                            "data-anim": "2",
+                            children: "Vocal"
+                        }, void 0, false, {
+                            fileName: "components/tchat.js",
+                            lineNumber: 130,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                            className: toggleTchat === 2 ? "TchatContent activeTchatContent" : "TchatContent",
+                            onClick: (0, _reactSpeechRecognitionDefault.default).startListening,
+                            children: "\uD83C\uDF99\uFE0F\u200B"
+                        }, void 0, false, {
+                            fileName: "components/tchat.js",
+                            lineNumber: 139,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/tchat.js",
+                    lineNumber: 73,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
             fileName: "components/tchat.js",
-            lineNumber: 57,
+            lineNumber: 63,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "components/tchat.js",
-        lineNumber: 56,
+        lineNumber: 62,
         columnNumber: 5
     }, this);
 }
@@ -37543,76 +37523,65 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactTwitchEmbed = require("react-twitch-embed");
-var _s = $RefreshSig$();
-const StreamsCard = ()=>{
-    _s();
-    const [respons, setResponse] = (0, _react.useState)([
-        {}
-    ]);
-    const [img, setImg] = (0, _react.useState)([
-        {}
-    ]);
-    const url1 = "https://api.twitch.tv/helix/games/top";
-    const fetchParties = (url)=>{
-        const headers = {
-            Authorization: "Bearer j66dvirbretd668on4gxvr643jnqpa",
-            "Client-Id": "lb8o6spujvoj8d88sbcidt49yjp5gj"
-        };
-        fetch(url, {
-            headers
-        }).then((response)=>response.json()).then((data)=>{
-            let tempList = data.data;
-            setResponse(data.data);
-            console.log(tempList);
-            setImg(tempList.map((rep)=>rep.box_art_url.replace("{width}", "300").replace("{height}", "300")));
-        // console.log(data.data)
-        }).catch((err)=>console.log(err));
-    };
-    (0, _react.useEffect)(()=>{
-        fetchParties(url1);
-    }, []);
-    console.log(respons);
+const StreamsCard = (props)=>{
+    // const [respons, setResponse] = useState([{}]);
+    // const [img, setImg] = useState([{}]);
+    // const url = "https://api.twitch.tv/helix/games/top";
+    // const fetchParties = (url) => {
+    //   const headers = {
+    //     Authorization: "Bearer j66dvirbretd668on4gxvr643jnqpa",
+    //     "Client-Id": "lb8o6spujvoj8d88sbcidt49yjp5gj",
+    //   };
+    //   fetch(url, { headers })
+    //     .then((response) => response.json())
+    //     .then((data) => {
+    //       let tempList = data.data;
+    //       setResponse(data.data);
+    //       console.log(tempList);
+    //       setImg(
+    //         tempList.map((rep) =>
+    //           rep.box_art_url.replace("{width}", "300").replace("{height}", "300")
+    //         )
+    //       );
+    //       // console.log(data.data)
+    //     })
+    //     .catch((err) => console.log(err));
+    // };
+    // useEffect(() => {
+    //   fetchParties(url);
+    // }, []);
+    // console.log(respons);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        children: [
-            "regarde la console fdp",
-            " ",
-            respons.map((rep)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                    children: rep.name
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                    children: props.taille
                 }, void 0, false, {
                     fileName: "components/StreamsCard.js",
-                    lineNumber: 44,
+                    lineNumber: 57,
                     columnNumber: 9
-                }, undefined)),
-            img.map((rep)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    src: rep
-                }, void 0, false, {
-                    fileName: "components/StreamsCard.js",
-                    lineNumber: 47,
-                    columnNumber: 9
-                }, undefined)),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactTwitchEmbed.TwitchPlayer), {
-                    channel: "smoke",
-                    height: "300",
-                    width: "300"
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactTwitchEmbed.TwitchPlayer), {
+                    channel: props.channelName,
+                    height: props.height,
+                    width: props.width
                 }, void 0, false, {
                     fileName: "components/StreamsCard.js",
                     lineNumber: 58,
                     columnNumber: 9
                 }, undefined)
-            }, void 0, false, {
-                fileName: "components/StreamsCard.js",
-                lineNumber: 49,
-                columnNumber: 7
-            }, undefined)
-        ]
-    }, void 0, true, {
+            ]
+        }, void 0, true, {
+            fileName: "components/StreamsCard.js",
+            lineNumber: 48,
+            columnNumber: 7
+        }, undefined)
+    }, void 0, false, {
         fileName: "components/StreamsCard.js",
         lineNumber: 41,
         columnNumber: 5
     }, undefined);
 };
-_s(StreamsCard, "zrge66Z7Hbe2q4HD6j3dQ44erTs=");
 _c = StreamsCard;
 exports.default = StreamsCard;
 var _c;
@@ -37623,6 +37592,1758 @@ $RefreshReg$(_c, "StreamsCard");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-twitch-embed":"kQseg","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["1xC6H","awEvQ","bB7Pu"], "bB7Pu", "parcelRequire3745")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-twitch-embed":"kQseg","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"hBNT9":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$c59a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$c59a.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _reactLeafPolls = require("react-leaf-polls");
+var _indexCss = require("react-leaf-polls/dist/index.css");
+const PollCust = ()=>{
+    const resData = [
+        [
+            {
+                id: 0,
+                text: "Le Covid",
+                votes: 3
+            },
+            {
+                id: 1,
+                text: "Vacances au soleil",
+                votes: 1
+            },
+            {
+                id: 2,
+                text: "Prof de sport",
+                votes: 2
+            }, 
+        ],
+        [
+            {
+                id: 0,
+                text: "Acte 1",
+                votes: 2
+            },
+            {
+                id: 1,
+                text: "Acte 2",
+                votes: 3
+            },
+            {
+                id: 2,
+                text: "Acte 3",
+                votes: 2
+            },
+            {
+                id: 3,
+                text: "Final",
+                votes: 1
+            }, 
+        ],
+        [
+            {
+                id: 0,
+                text: "Tout",
+                votes: 1
+            },
+            {
+                id: 1,
+                text: "Le rythme",
+                votes: 3
+            },
+            {
+                id: 2,
+                text: "Rien c'est propre",
+                votes: 0
+            }, 
+        ],
+        [
+            {
+                id: 0,
+                text: "Oui",
+                votes: 1
+            },
+            {
+                id: 1,
+                text: "Non",
+                votes: 3
+            }, 
+        ]
+    ];
+    const pairRandom = Math.floor(Math.random() * 4);
+    let questionType = "multiple";
+    const questions = [
+        "Choisissez un nouveau th\xe9me",
+        "Quel a \xe9t\xe9 votre partie pr\xe9f\xe9r\xe9e ?",
+        "Que faudrait-il am\xe9liorer ?",
+        "On recommence ?"
+    ];
+    const customTheme = {
+        textColor: "black",
+        mainColor: "#00B87B",
+        backgroundColor: "rgb(255,255,255)",
+        alignment: "center"
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactLeafPolls.LeafPoll), {
+        type: questionType,
+        question: questions[pairRandom],
+        results: resData[pairRandom],
+        theme: customTheme,
+        isVoted: false
+    }, void 0, false, {
+        fileName: "components/testNico.js",
+        lineNumber: 38,
+        columnNumber: 5
+    }, undefined);
+};
+_c = PollCust;
+exports.default = PollCust;
+var _c;
+$RefreshReg$(_c, "PollCust");
+
+  $parcel$ReactRefreshHelpers$c59a.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react-leaf-polls":"8PV05","react-leaf-polls/dist/index.css":"gwyay","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"8PV05":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "LeafPoll", ()=>LeafPoll);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var styles = {
+    "container": "_2EYYE",
+    "inner": "_3x3X6",
+    "answer": "_1gKL9",
+    "answer_hover": "_28NA5",
+    "answerContainer": "_wMDGK"
+};
+function manageVote(results, item, index, refs) {
+    item.votes++;
+    countPercentage(results);
+    animateAnswers(index, results, refs);
+}
+function animateAnswers(index, results, refs) {
+    var answer = refs[index].current;
+    var oppositeIndex = index === 0 ? 1 : 0;
+    var anotherAnswer = refs[oppositeIndex].current;
+    var percentage = results[index].percentage;
+    if (answer && anotherAnswer && percentage) {
+        answer.animate([
+            {
+                width: "50%",
+                easing: "ease-out"
+            },
+            {
+                width: percentage + "%",
+                easing: "ease-out"
+            }
+        ], 500);
+        anotherAnswer.animate([
+            {
+                width: "50%",
+                easing: "ease-out"
+            },
+            {
+                width: 100 - percentage + "%",
+                easing: "ease-out"
+            }
+        ], 500);
+        answer.style.width = percentage + "%";
+        anotherAnswer.style.width = 100 - percentage + "%";
+        answer.animate([
+            {
+                backgroundColor: "white"
+            },
+            {
+                backgroundColor: "#efefef"
+            }
+        ], 200);
+        answer.style.backgroundColor = "#EFEFEF";
+        var height = answer.offsetHeight;
+        answer.style.padding = "0";
+        anotherAnswer.style.padding = "0";
+        answer.classList.remove(styles.answer_hover);
+        anotherAnswer.classList.remove(styles.answer_hover);
+        var inner = refs[0].current;
+        if (inner) inner.style.height = height + "px";
+    }
+}
+function countPercentage(results) {
+    var sum = results[0].votes + results[1].votes;
+    results[0].percentage = Math.round(results[0].votes / sum * 100);
+    results[1].percentage = Math.round(results[1].votes / sum * 100);
+}
+var BinaryPoll = function BinaryPoll(_ref) {
+    var question = _ref.question, results = _ref.results, theme = _ref.theme, onVote = _ref.onVote, isVoted = _ref.isVoted;
+    var _useState = (0, _react.useState)(false), voted = _useState[0], setVoted = _useState[1];
+    var answersContainer = (0, _react.useRef)(null);
+    var answer0 = (0, _react.useRef)(null);
+    var answer1 = (0, _react.useRef)(null);
+    var allRefs = [
+        answer0,
+        answer1,
+        answersContainer
+    ];
+    (0, _react.useEffect)(function() {
+        if (isVoted) {
+            countPercentage(results);
+            animateAnswers(0, results, allRefs);
+            setVoted(true);
+        }
+    }, []);
+    return (0, _reactDefault.default).createElement("article", {
+        className: styles.container,
+        style: {
+            alignItems: theme === null || theme === void 0 ? void 0 : theme.alignment
+        }
+    }, question && (0, _reactDefault.default).createElement("h1", {
+        style: {
+            color: theme === null || theme === void 0 ? void 0 : theme.textColor
+        }
+    }, question), (0, _reactDefault.default).createElement("div", {
+        ref: answersContainer,
+        className: styles.inner,
+        style: {
+            backgroundColor: theme === null || theme === void 0 ? void 0 : theme.backgroundColor
+        }
+    }, (0, _reactDefault.default).createElement("div", {
+        ref: answer0,
+        role: "button",
+        className: styles.answer_hover + " " + styles.answer,
+        id: "binAnswer0",
+        onClick: function onClick() {
+            if (!voted) {
+                setVoted(true);
+                manageVote(results, results[0], 0, allRefs);
+                onVote === null || onVote === void 0 || onVote(results[0], results);
+            }
+        }
+    }, (0, _reactDefault.default).createElement("div", {
+        className: styles.answerContainer
+    }, (0, _reactDefault.default).createElement("p", {
+        style: {
+            color: theme === null || theme === void 0 ? void 0 : theme.leftColor
+        }
+    }, results[0].text), voted && (0, _reactDefault.default).createElement("span", {
+        style: {
+            color: theme === null || theme === void 0 ? void 0 : theme.textColor
+        }
+    }, results[0].percentage, "%"))), (0, _reactDefault.default).createElement("div", {
+        ref: answer1,
+        role: "button",
+        className: styles.answer_hover + " " + styles.answer,
+        id: "binAnswer1",
+        onClick: function onClick() {
+            if (!voted) {
+                setVoted(true);
+                manageVote(results, results[1], 1, allRefs);
+                onVote === null || onVote === void 0 || onVote(results[1], results);
+            }
+        }
+    }, (0, _reactDefault.default).createElement("div", {
+        className: styles.answerContainer
+    }, (0, _reactDefault.default).createElement("p", {
+        style: {
+            color: theme === null || theme === void 0 ? void 0 : theme.rightColor
+        }
+    }, results[1].text), voted && (0, _reactDefault.default).createElement("span", {
+        style: {
+            color: theme === null || theme === void 0 ? void 0 : theme.textColor
+        }
+    }, results[1].percentage, "%")))));
+};
+var styles$1 = {
+    "container": "_1xGEd",
+    "answer": "_3gEzx",
+    "answer_hover": "_cCkxB",
+    "answerInner": "_is6ww"
+};
+function _unsupportedIterableToArray(o, minLen) {
+    if (!o) return;
+    if (typeof o === "string") return _arrayLikeToArray(o, minLen);
+    var n = Object.prototype.toString.call(o).slice(8, -1);
+    if (n === "Object" && o.constructor) n = o.constructor.name;
+    if (n === "Map" || n === "Set") return Array.from(o);
+    if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);
+}
+function _arrayLikeToArray(arr, len) {
+    if (len == null || len > arr.length) len = arr.length;
+    for(var i = 0, arr2 = new Array(len); i < len; i++)arr2[i] = arr[i];
+    return arr2;
+}
+function _createForOfIteratorHelperLoose(o, allowArrayLike) {
+    var it = typeof Symbol !== "undefined" && o[Symbol.iterator] || o["@@iterator"];
+    if (it) return (it = it.call(o)).next.bind(it);
+    if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") {
+        if (it) o = it;
+        var i = 0;
+        return function() {
+            if (i >= o.length) return {
+                done: true
+            };
+            return {
+                done: false,
+                value: o[i++]
+            };
+        };
+    }
+    throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+}
+function manageVote$1(results, item, refs, theme) {
+    item.votes++;
+    countPercentage$1(results);
+    animateAnswers$1(results, refs, theme, item.id);
+}
+function animateAnswers$1(results, refs, theme, index, isVotedId) {
+    var answers = [];
+    var restOfAnswers = [];
+    for(var _iterator = _createForOfIteratorHelperLoose(results), _step; !(_step = _iterator()).done;){
+        var result = _step.value;
+        if (index !== undefined) result.id !== index && restOfAnswers.push(result);
+        else restOfAnswers = results;
+        var answerBuffer = refs.current[result.id].current;
+        answerBuffer && answers.push(answerBuffer);
+    }
+    if (index !== undefined) {
+        answers[index].animate([
+            {
+                width: 0,
+                easing: "ease-out",
+                backgroundColor: "white"
+            },
+            {
+                width: results[index].percentage + "%",
+                easing: "ease-out",
+                backgroundColor: "" + (theme === null || theme === void 0 ? void 0 : theme.mainColor)
+            }
+        ], 500);
+        answers[index].style.width = results[index].percentage + "%";
+        if (theme !== null && theme !== void 0 && theme.mainColor) answers[index].style.backgroundColor = theme === null || theme === void 0 ? void 0 : theme.mainColor;
+    }
+    for(var _iterator2 = _createForOfIteratorHelperLoose(restOfAnswers), _step2; !(_step2 = _iterator2()).done;){
+        var ans = _step2.value;
+        answers[ans.id].animate([
+            {
+                width: 0,
+                easing: "ease-out",
+                backgroundColor: "white"
+            },
+            {
+                width: ans.percentage + "%",
+                easing: "ease-out",
+                backgroundColor: "" + (ans.id === isVotedId ? theme === null || theme === void 0 ? void 0 : theme.mainColor : "#efefef")
+            }
+        ], 500);
+        answers[ans.id].style.width = ans.percentage + "%";
+        answers[ans.id].style.backgroundColor = "" + (ans.id === isVotedId ? theme === null || theme === void 0 ? void 0 : theme.mainColor : "#efefef");
+    }
+}
+function countPercentage$1(results) {
+    var votes = [];
+    var sum = 0;
+    for(var _iterator3 = _createForOfIteratorHelperLoose(results), _step3; !(_step3 = _iterator3()).done;){
+        var result = _step3.value;
+        votes.push(result.votes);
+        sum += result.votes;
+    }
+    for(var i = 0; i < votes.length; i++)results[i].percentage = Math.floor(votes[i] / sum * 100);
+}
+var MultiplePoll = function MultiplePoll(_ref) {
+    var question = _ref.question, results = _ref.results, theme = _ref.theme, onVote = _ref.onVote, isVoted = _ref.isVoted, isVotedId = _ref.isVotedId;
+    var _useState = (0, _react.useState)(false), voted = _useState[0], setVoted = _useState[1];
+    var answerRefs = (0, _react.useRef)(results.map(function() {
+        return (0, _react.createRef)();
+    }));
+    (0, _react.useEffect)(function() {
+        if (isVoted) {
+            countPercentage$1(results);
+            animateAnswers$1(results, answerRefs, theme, undefined, isVotedId);
+            setVoted(true);
+        }
+    }, []);
+    return (0, _reactDefault.default).createElement("article", {
+        className: styles$1.container,
+        style: {
+            alignItems: theme === null || theme === void 0 ? void 0 : theme.alignment
+        }
+    }, question && (0, _reactDefault.default).createElement("h1", {
+        style: {
+            color: theme === null || theme === void 0 ? void 0 : theme.textColor
+        }
+    }, question), results.map(function(result) {
+        return (0, _reactDefault.default).createElement("div", {
+            key: result.id,
+            role: "button",
+            id: "mulAnswer" + result.id,
+            className: voted ? styles$1.answer : styles$1.answer_hover + " " + styles$1.answer,
+            style: {
+                backgroundColor: theme === null || theme === void 0 ? void 0 : theme.backgroundColor
+            },
+            onClick: function onClick() {
+                if (!voted) {
+                    setVoted(true);
+                    manageVote$1(results, result, answerRefs, theme);
+                    onVote === null || onVote === void 0 || onVote(result, results);
+                }
+            }
+        }, (0, _reactDefault.default).createElement("div", {
+            ref: answerRefs.current[result.id],
+            className: styles$1.answerInner
+        }, (0, _reactDefault.default).createElement("p", {
+            style: {
+                color: theme === null || theme === void 0 ? void 0 : theme.textColor
+            }
+        }, result.text)), voted && (0, _reactDefault.default).createElement("span", {
+            style: {
+                color: theme === null || theme === void 0 ? void 0 : theme.textColor
+            }
+        }, result.percentage, "%"));
+    }));
+};
+var LeafPoll = function LeafPoll(_ref) {
+    var type = _ref.type, question = _ref.question, results = _ref.results, theme = _ref.theme, onVote = _ref.onVote, _ref$isVoted = _ref.isVoted, isVoted = _ref$isVoted === void 0 ? false : _ref$isVoted, isVotedId = _ref.isVotedId;
+    return type === "binary" ? (0, _react.createElement)(BinaryPoll, {
+        question: question,
+        results: results,
+        theme: theme,
+        onVote: onVote,
+        isVoted: isVoted
+    }) : (0, _react.createElement)(MultiplePoll, {
+        question: question,
+        results: results,
+        theme: theme,
+        onVote: onVote,
+        isVoted: isVoted,
+        isVotedId: isVotedId
+    });
+};
+
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gwyay":[function() {},{}],"8eBY8":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$d53d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$d53d.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _streamsCard = require("../components/StreamsCard");
+var _streamsCardDefault = parcelHelpers.interopDefault(_streamsCard);
+var _onglet = require("../components/onglet");
+var _ongletDefault = parcelHelpers.interopDefault(_onglet);
+const Dance = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _ongletDefault.default), {}, void 0, false, {
+                fileName: "pages/Danse.js",
+                lineNumber: 8,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "sinscrire inter-normal-black-30px",
+                children: [
+                    " ",
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                        href: "http://localhost:1234",
+                        children: "Accueil"
+                    }, void 0, false, {
+                        fileName: "pages/Danse.js",
+                        lineNumber: 11,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "pages/Danse.js",
+                lineNumber: 9,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _streamsCardDefault.default), {
+                    channelName: "AikaMorii",
+                    width: "800px",
+                    height: "800px"
+                }, void 0, false, {
+                    fileName: "pages/Danse.js",
+                    lineNumber: 14,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "pages/Danse.js",
+                lineNumber: 13,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "pages/Danse.js",
+        lineNumber: 7,
+        columnNumber: 5
+    }, undefined);
+};
+_c = Dance;
+exports.default = Dance;
+var _c;
+$RefreshReg$(_c, "Dance");
+
+  $parcel$ReactRefreshHelpers$d53d.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../components/StreamsCard":"t1a0q","../components/onglet":"gx6oT","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"gx6oT":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$6491 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$6491.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _socketIoClient = require("socket.io-client");
+var _socketIoClientDefault = parcelHelpers.interopDefault(_socketIoClient);
+var _tchatCss = require("../styles/tchat.css");
+var _reactSpeechRecognition = require("react-speech-recognition");
+var _reactSpeechRecognitionDefault = parcelHelpers.interopDefault(_reactSpeechRecognition);
+var _s = $RefreshSig$();
+function Tchat() {
+    _s();
+    const [messages, setMessages] = (0, _react.useState)([]);
+    const socket = (0, _socketIoClientDefault.default)("localhost:3001");
+    const [toggleTchat, setToggleTchat] = (0, _react.useState)(1);
+    const toggleTchatV = (index)=>{
+        setToggleTchat(index);
+    };
+    const { transcript , listening , resetTranscript  } = (0, _reactSpeechRecognition.useSpeechRecognition)();
+    socket.on("SERVER_MSG", (msg)=>{
+        setNewMessage(msg);
+    });
+    function setNewMessage(msg) {
+        setMessages([
+            ...messages,
+            msg
+        ]);
+    }
+    function sendMessage(e) {
+        e.preventDefault();
+        const msg = {
+            username: e.target.username.value,
+            text: e.target.text.value
+        };
+        socket.emit("CLIENT_MSG", msg);
+        setNewMessage(msg);
+    // e.target.user.value = { transcript };
+    }
+    function sendMessageVocal(e) {
+        e.preventDefault();
+        const msg = {
+            username: e.target.username.value,
+            text: e.target.vocal.value
+        };
+        socket.emit("CLIENT_MSG", msg);
+        setNewMessage(msg);
+    // e.target.user.value = { transcript };
+    }
+    // function sendAll(e){
+    //   sendMessage(e);
+    //   console.log();
+    //   setNewMessage(transcript);
+    // }
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "app_categ inter-normal-black-32px",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "app_categ-1",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                            href: "http://localhost:1234/Sport",
+                            children: "Sport"
+                        }, void 0, false, {
+                            fileName: "components/onglet.js",
+                            lineNumber: 58,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            className: "sport_ballon-1",
+                            src: "/img/sport-ballon@2x.png"
+                        }, void 0, false, {
+                            fileName: "components/onglet.js",
+                            lineNumber: 59,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/onglet.js",
+                    lineNumber: 57,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "app_categ-2",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "musique-1",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "http://localhost:1234/Musique",
+                                children: "Musique"
+                            }, void 0, false, {
+                                fileName: "components/onglet.js",
+                                lineNumber: 63,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "components/onglet.js",
+                            lineNumber: 62,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            className: "microphone_png7930-1",
+                            src: "/img/microphone-png7930-1-1@2x.png"
+                        }, void 0, false, {
+                            fileName: "components/onglet.js",
+                            lineNumber: 65,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/onglet.js",
+                    lineNumber: 61,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "app_categ-3",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "thatre-1",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "http://localhost:1234/Theatre",
+                                children: "Th\xe9atre"
+                            }, void 0, false, {
+                                fileName: "components/onglet.js",
+                                lineNumber: 72,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "components/onglet.js",
+                            lineNumber: 71,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            className: "thatre_masque-1",
+                            src: "/img/th-atre-masque@2x.png"
+                        }, void 0, false, {
+                            fileName: "components/onglet.js",
+                            lineNumber: 74,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/onglet.js",
+                    lineNumber: 70,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "onglet-danse",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "app_categ-4",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "danse-1 inter-normal-black-32px",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                    href: "http://localhost:1234/Danse",
+                                    children: "Danse"
+                                }, void 0, false, {
+                                    fileName: "components/onglet.js",
+                                    lineNumber: 79,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "components/onglet.js",
+                                lineNumber: 78,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                className: "danse_danseuse-1",
+                                src: "/img/danse-danseuse@2x.png"
+                            }, void 0, false, {
+                                fileName: "components/onglet.js",
+                                lineNumber: 81,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "components/onglet.js",
+                        lineNumber: 77,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "components/onglet.js",
+                    lineNumber: 76,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "onglet-irl",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "app_categ-5",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "irl-1 inter-normal-black-32px",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                    href: "http://localhost:1234/Irl",
+                                    children: "IRL"
+                                }, void 0, false, {
+                                    fileName: "components/onglet.js",
+                                    lineNumber: 91,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "components/onglet.js",
+                                lineNumber: 90,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                className: "icon-camera-1",
+                                src: "/img/image-2-1@2x.png"
+                            }, void 0, false, {
+                                fileName: "components/onglet.js",
+                                lineNumber: 93,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "components/onglet.js",
+                        lineNumber: 89,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "components/onglet.js",
+                    lineNumber: 88,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "components/onglet.js",
+            lineNumber: 56,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "components/onglet.js",
+        lineNumber: 55,
+        columnNumber: 5
+    }, this);
+}
+_s(Tchat, "2o3SuQQ9/60nS9pBbK2ElyVO9WM=", false, function() {
+    return [
+        (0, _reactSpeechRecognition.useSpeechRecognition)
+    ];
+});
+_c = Tchat;
+exports.default = Tchat;
+var _c;
+$RefreshReg$(_c, "Tchat");
+
+  $parcel$ReactRefreshHelpers$6491.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","socket.io-client":"8HBJR","../styles/tchat.css":"fyafa","react-speech-recognition":"HQfK2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fyafa":[function() {},{}],"3gJSK":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$cc41 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$cc41.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _streamsCard = require("../components/StreamsCard");
+var _streamsCardDefault = parcelHelpers.interopDefault(_streamsCard);
+var _onglet = require("../components/onglet");
+var _ongletDefault = parcelHelpers.interopDefault(_onglet);
+const Irl = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _ongletDefault.default), {}, void 0, false, {
+                        fileName: "pages/Irl.js",
+                        lineNumber: 9,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "sinscrire inter-normal-black-30px",
+                        children: [
+                            " ",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "http://localhost:1234",
+                                children: "Accueil"
+                            }, void 0, false, {
+                                fileName: "pages/Irl.js",
+                                lineNumber: 12,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "pages/Irl.js",
+                        lineNumber: 10,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "pages/Irl.js",
+                lineNumber: 8,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _streamsCardDefault.default), {
+                    channelName: "TokyoExclusive",
+                    width: "800px",
+                    height: "800px"
+                }, void 0, false, {
+                    fileName: "pages/Irl.js",
+                    lineNumber: 16,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "pages/Irl.js",
+                lineNumber: 15,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _streamsCardDefault.default), {
+                    channelName: "BotezLive",
+                    width: "800px",
+                    height: "800px"
+                }, void 0, false, {
+                    fileName: "pages/Irl.js",
+                    lineNumber: 23,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "pages/Irl.js",
+                lineNumber: 22,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _streamsCardDefault.default), {
+                    channelName: "tertuliasliberales",
+                    width: "800px",
+                    height: "800px"
+                }, void 0, false, {
+                    fileName: "pages/Irl.js",
+                    lineNumber: 31,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "pages/Irl.js",
+                lineNumber: 30,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "pages/Irl.js",
+        lineNumber: 7,
+        columnNumber: 5
+    }, undefined);
+};
+_c = Irl;
+exports.default = Irl;
+var _c;
+$RefreshReg$(_c, "Irl");
+
+  $parcel$ReactRefreshHelpers$cc41.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../components/StreamsCard":"t1a0q","../components/onglet":"gx6oT","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"aOxTj":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$9172 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$9172.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _streamsCard = require("../components/StreamsCard");
+var _streamsCardDefault = parcelHelpers.interopDefault(_streamsCard);
+var _musiqueCss = require("../styles/Musique.css");
+var _onglet = require("../components/onglet");
+var _ongletDefault = parcelHelpers.interopDefault(_onglet);
+const Musique = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _ongletDefault.default), {}, void 0, false, {
+                        fileName: "pages/Musique.js",
+                        lineNumber: 10,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "app_navbar-inscription",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "sinscrire inter-normal-black-30px",
+                            children: [
+                                " ",
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                    href: "http://localhost:1234",
+                                    children: "Accueil"
+                                }, void 0, false, {
+                                    fileName: "pages/Musique.js",
+                                    lineNumber: 14,
+                                    columnNumber: 13
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "pages/Musique.js",
+                            lineNumber: 12,
+                            columnNumber: 11
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "pages/Musique.js",
+                        lineNumber: 11,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "pages/Musique.js",
+                lineNumber: 9,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "m1",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _streamsCardDefault.default), {
+                    channelName: "LeekBeats",
+                    width: "800px",
+                    height: "800px"
+                }, void 0, false, {
+                    fileName: "pages/Musique.js",
+                    lineNumber: 20,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "pages/Musique.js",
+                lineNumber: 19,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _streamsCardDefault.default), {
+                    className: "m2",
+                    channelName: "AnimeVibesRadio",
+                    width: "800px",
+                    height: "800px"
+                }, void 0, false, {
+                    fileName: "pages/Musique.js",
+                    lineNumber: 27,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "pages/Musique.js",
+                lineNumber: 26,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _streamsCardDefault.default), {
+                    className: "m3",
+                    channelName: "ulfa_yuv",
+                    width: "800px",
+                    height: "800px"
+                }, void 0, false, {
+                    fileName: "pages/Musique.js",
+                    lineNumber: 35,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "pages/Musique.js",
+                lineNumber: 34,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _streamsCardDefault.default), {
+                    className: "m3",
+                    channelName: "MalaykaMusic",
+                    width: "800px",
+                    height: "800px"
+                }, void 0, false, {
+                    fileName: "pages/Musique.js",
+                    lineNumber: 44,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "pages/Musique.js",
+                lineNumber: 43,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "pages/Musique.js",
+        lineNumber: 8,
+        columnNumber: 5
+    }, undefined);
+};
+_c = Musique;
+exports.default = Musique;
+var _c;
+$RefreshReg$(_c, "Musique");
+
+  $parcel$ReactRefreshHelpers$9172.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../components/StreamsCard":"t1a0q","../styles/Musique.css":"gsVVh","../components/onglet":"gx6oT","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"gsVVh":[function() {},{}],"VFXwy":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$7a53 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$7a53.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _streamsCard = require("../components/StreamsCard");
+var _streamsCardDefault = parcelHelpers.interopDefault(_streamsCard);
+var _onglet = require("../components/onglet");
+var _ongletDefault = parcelHelpers.interopDefault(_onglet);
+const Sport = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _ongletDefault.default), {}, void 0, false, {
+                fileName: "pages/Sport.js",
+                lineNumber: 8,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "sinscrire inter-normal-black-30px",
+                children: [
+                    " ",
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                        href: "http://localhost:1234",
+                        children: "Accueil"
+                    }, void 0, false, {
+                        fileName: "pages/Sport.js",
+                        lineNumber: 11,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "pages/Sport.js",
+                lineNumber: 9,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _streamsCardDefault.default), {
+                    channelName: "gonni",
+                    width: "800px",
+                    height: "800px"
+                }, void 0, false, {
+                    fileName: "pages/Sport.js",
+                    lineNumber: 14,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "pages/Sport.js",
+                lineNumber: 13,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _streamsCardDefault.default), {
+                    channelName: "usaballhockey",
+                    width: "800px",
+                    height: "800px"
+                }, void 0, false, {
+                    fileName: "pages/Sport.js",
+                    lineNumber: 17,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "pages/Sport.js",
+                lineNumber: 16,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _streamsCardDefault.default), {
+                    channelName: "Arigeli_",
+                    width: "800px",
+                    height: "800px"
+                }, void 0, false, {
+                    fileName: "pages/Sport.js",
+                    lineNumber: 24,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "pages/Sport.js",
+                lineNumber: 23,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _streamsCardDefault.default), {
+                    channelName: "BepiTv_1",
+                    width: "800px",
+                    height: "800px"
+                }, void 0, false, {
+                    fileName: "pages/Sport.js",
+                    lineNumber: 31,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "pages/Sport.js",
+                lineNumber: 30,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _streamsCardDefault.default), {
+                    channelName: "volley15",
+                    width: "800px",
+                    height: "800px"
+                }, void 0, false, {
+                    fileName: "pages/Sport.js",
+                    lineNumber: 39,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "pages/Sport.js",
+                lineNumber: 38,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "pages/Sport.js",
+        lineNumber: 7,
+        columnNumber: 5
+    }, undefined);
+};
+_c = Sport;
+exports.default = Sport;
+var _c;
+$RefreshReg$(_c, "Sport");
+
+  $parcel$ReactRefreshHelpers$7a53.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../components/StreamsCard":"t1a0q","../components/onglet":"gx6oT","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"6OPwP":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$6a12 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$6a12.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _streamsCard = require("../components/StreamsCard");
+var _streamsCardDefault = parcelHelpers.interopDefault(_streamsCard);
+var _onglet = require("../components/onglet");
+var _ongletDefault = parcelHelpers.interopDefault(_onglet);
+const Theatre = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _ongletDefault.default), {}, void 0, false, {
+                        fileName: "pages/Theatre.js",
+                        lineNumber: 8,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "sinscrire inter-normal-black-30px",
+                        children: [
+                            " ",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "http://localhost:1234",
+                                children: "Accueil"
+                            }, void 0, false, {
+                                fileName: "pages/Theatre.js",
+                                lineNumber: 11,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "pages/Theatre.js",
+                        lineNumber: 9,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "pages/Theatre.js",
+                lineNumber: 7,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _streamsCardDefault.default), {
+                    channelName: "vcrtube",
+                    width: "800px",
+                    height: "800px"
+                }, void 0, false, {
+                    fileName: "pages/Theatre.js",
+                    lineNumber: 15,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "pages/Theatre.js",
+                lineNumber: 14,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "pages/Theatre.js",
+        lineNumber: 6,
+        columnNumber: 5
+    }, undefined);
+};
+_c = Theatre;
+exports.default = Theatre;
+var _c;
+$RefreshReg$(_c, "Theatre");
+
+  $parcel$ReactRefreshHelpers$6a12.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../components/StreamsCard":"t1a0q","../components/onglet":"gx6oT","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"lGSiI":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$d9aa = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$d9aa.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactDom = require("react-dom");
+var _reactDomDefault = parcelHelpers.interopDefault(_reactDom);
+var _inscriptionCss = require("../styles/Inscription.css");
+var _s = $RefreshSig$();
+function Connexion() {
+    _s();
+    const [name, setName] = (0, _react.useState)("");
+    const [password, setPassword] = (0, _react.useState)("");
+    const handleChange = (e)=>{
+        setName(e.target.value);
+        localStorage.setItem("nom", name);
+    };
+    const handlePasswordChange = (e)=>{
+        setPassword(e.target.value);
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "App",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
+            className: "App-header",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
+                onSubmit: (e)=>{
+                    alert(`coucou ${name}`);
+                },
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                        children: " Connexion "
+                    }, void 0, false, {
+                        fileName: "components/Connexion.js",
+                        lineNumber: 24,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                        children: "Name:"
+                    }, void 0, false, {
+                        fileName: "components/Connexion.js",
+                        lineNumber: 25,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "components/Connexion.js",
+                        lineNumber: 26,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                        type: "text",
+                        value: name,
+                        required: true,
+                        onChange: (e)=>{
+                            handleChange(e);
+                        }
+                    }, void 0, false, {
+                        fileName: "components/Connexion.js",
+                        lineNumber: 27,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "components/Connexion.js",
+                        lineNumber: 35,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                        children: "Password:"
+                    }, void 0, false, {
+                        fileName: "components/Connexion.js",
+                        lineNumber: 36,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "components/Connexion.js",
+                        lineNumber: 37,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                        type: "password",
+                        value: password,
+                        required: true,
+                        onChange: (e)=>{
+                            handlePasswordChange(e);
+                        }
+                    }, void 0, false, {
+                        fileName: "components/Connexion.js",
+                        lineNumber: 38,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "components/Connexion.js",
+                        lineNumber: 46,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                        type: "submit",
+                        value: "Submit"
+                    }, void 0, false, {
+                        fileName: "components/Connexion.js",
+                        lineNumber: 47,
+                        columnNumber: 11
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "components/Connexion.js",
+                lineNumber: 19,
+                columnNumber: 9
+            }, this)
+        }, void 0, false, {
+            fileName: "components/Connexion.js",
+            lineNumber: 18,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "components/Connexion.js",
+        lineNumber: 17,
+        columnNumber: 5
+    }, this);
+}
+_s(Connexion, "Q3D0qnZ9tttG8x/WlHuqXUGjTo0=");
+_c = Connexion;
+exports.default = Connexion;
+var _c;
+$RefreshReg$(_c, "Connexion");
+
+  $parcel$ReactRefreshHelpers$d9aa.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom":"j6uA9","../styles/Inscription.css":"1DasQ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"1DasQ":[function() {},{}],"6V2VG":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$af96 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$af96.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactDom = require("react-dom");
+var _reactDomDefault = parcelHelpers.interopDefault(_reactDom);
+var _inscriptionCss = require("../styles/Inscription.css");
+var _s = $RefreshSig$();
+function Inscription() {
+    _s();
+    const [name, setName] = (0, _react.useState)("");
+    const [age, setAge] = (0, _react.useState)("");
+    const [email, setEmail] = (0, _react.useState)("");
+    const [password, setPassword] = (0, _react.useState)("");
+    const [confPassword, setConfPassword] = (0, _react.useState)("");
+    // function to update state of name with
+    // value enter by user in form
+    const handleChange = (e)=>{
+        setName(e.target.value);
+        localStorage.setItem("nom", name);
+    };
+    // function to update state of age with value
+    // enter by user in form
+    const handleAgeChange = (e)=>{
+        setAge(e.target.value);
+    };
+    // function to update state of email with value
+    // enter by user in form
+    const handleEmailChange = (e)=>{
+        setEmail(e.target.value);
+    };
+    // function to update state of password with
+    // value enter by user in form
+    const handlePasswordChange = (e)=>{
+        setPassword(e.target.value);
+    };
+    // function to update state of confirm password
+    // with value enter by user in form
+    const handleConfPasswordChange = (e)=>{
+        setConfPassword(e.target.value);
+    };
+    // below function will be called when user
+    // click on submit button .
+    const handleSubmit = (e)=>{
+        if (password != confPassword) // if 'password' and 'confirm password'
+        // does not match.
+        alert("password Not Match");
+        else // display alert box with user
+        // 'name' and 'email' deatils .
+        alert('Vous \xeates bien inscrit avec : Nom :"' + name + '" ,Age :"' + age + '" and Email :"' + email + '"');
+        e.preventDefault();
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "App",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
+            className: "App-header",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
+                onSubmit: (e)=>{
+                    handleSubmit(e);
+                },
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        children: " Geeks For Geeks "
+                    }, void 0, false, {
+                        fileName: "components/Inscription.js",
+                        lineNumber: 70,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                        children: " Sign-up Form "
+                    }, void 0, false, {
+                        fileName: "components/Inscription.js",
+                        lineNumber: 71,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        src: "/gfg.png"
+                    }, void 0, false, {
+                        fileName: "components/Inscription.js",
+                        lineNumber: 72,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                        children: "Name:"
+                    }, void 0, false, {
+                        fileName: "components/Inscription.js",
+                        lineNumber: 73,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "components/Inscription.js",
+                        lineNumber: 74,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                        type: "text",
+                        value: name,
+                        required: true,
+                        onChange: (e)=>{
+                            handleChange(e);
+                        }
+                    }, void 0, false, {
+                        fileName: "components/Inscription.js",
+                        lineNumber: 75,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "components/Inscription.js",
+                        lineNumber: 83,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                        children: "Age:"
+                    }, void 0, false, {
+                        fileName: "components/Inscription.js",
+                        lineNumber: 84,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "components/Inscription.js",
+                        lineNumber: 85,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                        type: "text",
+                        value: age,
+                        required: true,
+                        onChange: (e)=>{
+                            handleAgeChange(e);
+                        }
+                    }, void 0, false, {
+                        fileName: "components/Inscription.js",
+                        lineNumber: 86,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "components/Inscription.js",
+                        lineNumber: 94,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                        children: "Email:"
+                    }, void 0, false, {
+                        fileName: "components/Inscription.js",
+                        lineNumber: 95,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "components/Inscription.js",
+                        lineNumber: 96,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                        type: "email",
+                        value: email,
+                        required: true,
+                        onChange: (e)=>{
+                            handleEmailChange(e);
+                        }
+                    }, void 0, false, {
+                        fileName: "components/Inscription.js",
+                        lineNumber: 97,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "components/Inscription.js",
+                        lineNumber: 105,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                        children: "Password:"
+                    }, void 0, false, {
+                        fileName: "components/Inscription.js",
+                        lineNumber: 106,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "components/Inscription.js",
+                        lineNumber: 107,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                        type: "password",
+                        value: password,
+                        required: true,
+                        onChange: (e)=>{
+                            handlePasswordChange(e);
+                        }
+                    }, void 0, false, {
+                        fileName: "components/Inscription.js",
+                        lineNumber: 108,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "components/Inscription.js",
+                        lineNumber: 116,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                        children: "Confirm Password:"
+                    }, void 0, false, {
+                        fileName: "components/Inscription.js",
+                        lineNumber: 117,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "components/Inscription.js",
+                        lineNumber: 118,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                        type: "password",
+                        value: confPassword,
+                        required: true,
+                        onChange: (e)=>{
+                            handleConfPasswordChange(e);
+                        }
+                    }, void 0, false, {
+                        fileName: "components/Inscription.js",
+                        lineNumber: 119,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "components/Inscription.js",
+                        lineNumber: 127,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                        type: "submit",
+                        value: "Submit"
+                    }, void 0, false, {
+                        fileName: "components/Inscription.js",
+                        lineNumber: 128,
+                        columnNumber: 11
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "components/Inscription.js",
+                lineNumber: 63,
+                columnNumber: 9
+            }, this)
+        }, void 0, false, {
+            fileName: "components/Inscription.js",
+            lineNumber: 62,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "components/Inscription.js",
+        lineNumber: 61,
+        columnNumber: 5
+    }, this);
+}
+_s(Inscription, "CRWS0D9pRBDz1bQ8MRCnGjNagaU=");
+_c = Inscription;
+exports.default = Inscription;
+var _c;
+$RefreshReg$(_c, "Inscription");
+
+  $parcel$ReactRefreshHelpers$af96.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom":"j6uA9","../styles/Inscription.css":"1DasQ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"1DasQ":[function() {},{}],"5FjFJ":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$8f55 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$8f55.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _tchat = require("./tchat");
+var _tchatDefault = parcelHelpers.interopDefault(_tchat);
+var _tchatCss = require("../styles/tchat.css");
+var _reactTwitchEmbed = require("react-twitch-embed");
+var _s = $RefreshSig$();
+const OngletTchat = ()=>{
+    _s();
+    const [toggleState, setToggleState] = (0, _react.useState)(1);
+    const toggleTab = (index)=>{
+        setToggleState(index);
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "containerTchat",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "bloc-tabsTchat",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        id: "btnParties",
+                        className: toggleState === 1 ? "tabsTchat active-tabsTchat" : "tabsTchat",
+                        onClick: ()=>toggleTab(1),
+                        children: "Tchat"
+                    }, void 0, false, {
+                        fileName: "components/OngletTchat.js",
+                        lineNumber: 20,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        id: "btnPerso",
+                        className: toggleState === 2 ? "tabsTchat active-tabsTchat" : "tabsTchat",
+                        onClick: ()=>toggleTab(2),
+                        children: "Tchat Twitch"
+                    }, void 0, false, {
+                        fileName: "components/OngletTchat.js",
+                        lineNumber: 29,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "components/OngletTchat.js",
+                lineNumber: 19,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "content-tabsTchat",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: toggleState === 1 ? "contentTchat  active-contentTchat" : "contentTchat",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _tchatDefault.default), {}, void 0, false, {
+                            fileName: "components/OngletTchat.js",
+                            lineNumber: 48,
+                            columnNumber: 11
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "components/OngletTchat.js",
+                        lineNumber: 41,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: toggleState === 2 ? "contentTchat  active-contentTchat" : "contentTchat",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactTwitchEmbed.TwitchChat), {
+                            channel: "gonni",
+                            theme: "clean",
+                            width: "100%",
+                            height: "100%"
+                        }, void 0, false, {
+                            fileName: "components/OngletTchat.js",
+                            lineNumber: 58,
+                            columnNumber: 11
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "components/OngletTchat.js",
+                        lineNumber: 51,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "components/OngletTchat.js",
+                lineNumber: 40,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "components/OngletTchat.js",
+        lineNumber: 18,
+        columnNumber: 5
+    }, undefined);
+};
+_s(OngletTchat, "uvzPP7+JR8H+jf0J2/pebcrvssc=");
+_c = OngletTchat;
+exports.default = OngletTchat;
+var _c;
+$RefreshReg$(_c, "OngletTchat");
+
+  $parcel$ReactRefreshHelpers$8f55.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./tchat":"3eDIh","../styles/tchat.css":"fyafa","react-twitch-embed":"kQseg","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fyafa":[function() {},{}]},["1xC6H","awEvQ","bB7Pu"], "bB7Pu", "parcelRequire3745")
 
 //# sourceMappingURL=index.3d214d75.js.map
