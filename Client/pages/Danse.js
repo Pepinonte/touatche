@@ -12,7 +12,7 @@ const Dance = () => {
       </div>
       <div>
         <StreamsCard
-          channelName={"AikaMorii"}
+          channelName={"Casiyaa"}
           width={"800px"}
           height={"800px"}
         />

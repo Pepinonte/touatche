@@ -10,9 +10,7 @@ const Sport = () => {
         {" "}
         <a href="http://localhost:1234">Accueil</a>
       </div>
-      <div>
-        <StreamsCard channelName={"gonni"} width={"800px"} height={"800px"} />
-      </div>
+     
       <div>
         <StreamsCard
           channelName={"usaballhockey"}

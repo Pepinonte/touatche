@@ -13,6 +13,9 @@ const Irl = () => {
         </div>
       </div>
       <div>
+        <StreamsCard channelName={"gonni"} width={"800px"} height={"800px"} />
+      </div>
+      <div>
         <StreamsCard
           channelName={"TokyoExclusive"}
           width={"800px"}
